@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+wandb/
+outputs/
+data/raw/
+data/tudelft_data_raw/
+data/omniweb_data/
+data/sw_data/
+data/sw_indices_raw/
+# 仅纳入发布所用的数据子集与检查点。
+data/merged_datasets/*.csv
+!data/merged_datasets/satellites_data_swarm_a_10xresample_omni.csv
+!data/merged_datasets/satellites_data_swarm_c_10xresample_omni.csv
+models/**/*.pth
+!models/finetune/patchtst_swarm_c_fold0_ds1_sl288_pl288_2014-01-01_to_2025-12-31_best.pth
+*.log

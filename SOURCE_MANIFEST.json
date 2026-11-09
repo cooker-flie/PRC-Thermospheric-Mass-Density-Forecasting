@@ -1,0 +1,82 @@
+[
+  {
+    "source": "scripts/training/train_forecasting_transformer.py",
+    "destination": "scripts/training/train_forecasting_transformer.py",
+    "source_sha256": "052ae223a2e7b6e2e8c025a2d7f0d7f40ca148cf57f1374a1f65d55f442ed410",
+    "changes": "仅发布副本路径、入口说明和项目名称适配"
+  },
+  {
+    "source": "scripts/training/finetune_forecasting_transformer.py",
+    "destination": "scripts/training/finetune_forecasting_transformer.py",
+    "source_sha256": "690479abd861b5a9468d8bf798700de991db6e0e05a2d27b76f2bda4c9191605",
+    "changes": "仅发布副本路径、入口说明和项目名称适配"
+  },
+  {
+    "source": "scripts/training/infer_forecasting_DL.py",
+    "destination": "scripts/training/infer_forecasting_DL.py",
+    "source_sha256": "2a08ba43de13b1cbd861c9edeebf3e9728350bd14be6a8d07c82b775b7699176",
+    "changes": "仅发布副本路径、入口说明和项目名称适配"
+  },
+  {
+    "source": "scripts/training/infer_plotting.py",
+    "destination": "scripts/training/infer_plotting.py",
+    "source_sha256": "f28763cad939d05647b01f99fdbaefcded1a637bcbc87602a5f0602631849a35",
+    "changes": "仅发布副本路径、入口说明和项目名称适配"
+  },
+  {
+    "source": "scripts/input_data_prep/process_merge_sw_and_tudelft_data_simple.py",
+    "destination": "scripts/input_data_prep/process_merge_sw_and_tudelft_data_simple.py",
+    "source_sha256": "78c3fee4d085d559ee2f25a36ef995b795beb8056fb1b0beb7969e17e00241f2",
+    "changes": "仅发布副本路径、入口说明和项目名称适配"
+  },
+  {
+    "source": "scripts/input_data_prep/process_merge_sw_tudelft_omni.py",
+    "destination": "scripts/input_data_prep/process_merge_sw_tudelft_omni.py",
+    "source_sha256": "5ad520dbf4088861f5b93de9d27fb63e4fd6be17e55d188fa8fbea7924e4640d",
+    "changes": "仅发布副本路径、入口说明和项目名称适配"
+  },
+  {
+    "source": "scripts/input_data_prep/process_sw_indices.py",
+    "destination": "scripts/input_data_prep/process_sw_indices.py",
+    "source_sha256": "8fb6afba7aa16edd83bd0c4469edc4488eaebfd7f3bc4be27b940482ac917e8b",
+    "changes": "仅发布副本路径、入口说明和项目名称适配"
+  },
+  {
+    "source": "scripts/input_data_prep/download_tudelft_thermo.py",
+    "destination": "scripts/input_data_prep/download_tudelft_thermo.py",
+    "source_sha256": "060efadb3ee2362b31c86e5c76660d0f665dfd09b564806c1c7e9f59fee3d286",
+    "changes": "仅发布副本路径、入口说明和项目名称适配"
+  },
+  {
+    "source": "scripts/input_data_prep/download_omniweb.py",
+    "destination": "scripts/input_data_prep/download_omniweb.py",
+    "source_sha256": "301adc04694f608fee42ac81d21ada6dc6cf44b5e8f61a6d171366cc068ac056",
+    "changes": "仅发布副本路径、入口说明和项目名称适配"
+  },
+  {
+    "source": "scripts/input_data_prep/process_omniweb_data.py",
+    "destination": "scripts/input_data_prep/process_omniweb_data.py",
+    "source_sha256": "6084a582efa253932ec51ba926cb88a4cf6e2c2295a6cf21ddbeb11af076a0a9",
+    "changes": "仅发布副本路径、入口说明和项目名称适配"
+  },
+  {
+    "source": "data/merged_datasets/satellites_data_swarm_a_10xresample_omni.csv",
+    "destination": "data/merged_datasets/satellites_data_swarm_a_10xresample_omni.csv",
+    "rows": 8920,
+    "selection": "2024-05-01 <= UTC date <= 2024-05-31",
+    "transformation": "保留原始完整 CSV 行，未修改数值"
+  },
+  {
+    "source": "data/merged_datasets/satellites_data_swarm_c_10xresample_omni.csv",
+    "destination": "data/merged_datasets/satellites_data_swarm_c_10xresample_omni.csv",
+    "rows": 8920,
+    "selection": "2024-05-01 <= UTC date <= 2024-05-31",
+    "transformation": "保留原始完整 CSV 行，未修改数值"
+  },
+  {
+    "source": "models/finetune/patchtst_swarm_c_fold0_ds1_sl288_pl288_2014-01-01_to_2025-12-31_best.pth",
+    "destination": "models/finetune/patchtst_swarm_c_fold0_ds1_sl288_pl288_2014-01-01_to_2025-12-31_best.pth",
+    "sha256": "438e1b5d8edefb173192069791525f96e2a9ac4ea007bf92b585b1f05295b81b",
+    "note": "原始可信权重，字节不变；不等于已证明所有论文表格均由此权重生成。"
+  }
+]

@@ -1,0 +1,2947 @@
+{
+  "model_type": "patchtst",
+  "seq_len": 288,
+  "pred_len": 288,
+  "train_type": "log_exp_residual",
+  "satellite": "swarm_a",
+  "start_time": "2025-04-15 00:00:00",
+  "end_time": "2025-04-18 00:00:00",
+  "lead_metrics": [
+    {
+      "lead_step": 1,
+      "count": 578,
+      "nn_mape": 29.39115250863126,
+      "nn_rmse": 8.00269108202569e-13,
+      "nrlmsise_mape": 19.687584415388,
+      "nrlmsise_rmse": 5.081861591637331e-13,
+      "nrlmsise00_mape": 25.07631940418929,
+      "nrlmsise00_rmse": 6.087772664864723e-13
+    },
+    {
+      "lead_step": 2,
+      "count": 578,
+      "nn_mape": 28.583323126772452,
+      "nn_rmse": 7.988164149393211e-13,
+      "nrlmsise_mape": 19.709786603788224,
+      "nrlmsise_rmse": 5.088261188812558e-13,
+      "nrlmsise00_mape": 25.0830207046919,
+      "nrlmsise00_rmse": 6.091381051277877e-13
+    },
+    {
+      "lead_step": 3,
+      "count": 578,
+      "nn_mape": 27.80392950173325,
+      "nn_rmse": 7.841453712603158e-13,
+      "nrlmsise_mape": 19.71591568972051,
+      "nrlmsise_rmse": 5.097623288928682e-13,
+      "nrlmsise00_mape": 25.072190569482267,
+      "nrlmsise00_rmse": 6.095884760937828e-13
+    },
+    {
+      "lead_step": 4,
+      "count": 578,
+      "nn_mape": 25.532569317759652,
+      "nn_rmse": 7.367607880009019e-13,
+      "nrlmsise_mape": 19.739869050452768,
+      "nrlmsise_rmse": 5.114750896631701e-13,
+      "nrlmsise00_mape": 25.079526415807564,
+      "nrlmsise00_rmse": 6.106657124807369e-13
+    },
+    {
+      "lead_step": 5,
+      "count": 578,
+      "nn_mape": 25.187611393409604,
+      "nn_rmse": 7.310787189158916e-13,
+      "nrlmsise_mape": 19.78593764130817,
+      "nrlmsise_rmse": 5.134763021096351e-13,
+      "nrlmsise00_mape": 25.109360427665138,
+      "nrlmsise00_rmse": 6.120416651032012e-13
+    },
+    {
+      "lead_step": 6,
+      "count": 578,
+      "nn_mape": 29.806241910670394,
+      "nn_rmse": 8.313674661793756e-13,
+      "nrlmsise_mape": 19.829240285889043,
+      "nrlmsise_rmse": 5.153963362104084e-13,
+      "nrlmsise00_mape": 25.133327842401492,
+      "nrlmsise00_rmse": 6.133048999279922e-13
+    },
+    {
+      "lead_step": 7,
+      "count": 578,
+      "nn_mape": 32.4785616615153,
+      "nn_rmse": 9.095666572569424e-13,
+      "nrlmsise_mape": 19.867951661130494,
+      "nrlmsise_rmse": 5.165445365721396e-13,
+      "nrlmsise00_mape": 25.146062209701554,
+      "nrlmsise00_rmse": 6.138889557889587e-13
+    },
+    {
+      "lead_step": 8,
+      "count": 578,
+      "nn_mape": 30.168537079819757,
+      "nn_rmse": 8.692097188991726e-13,
+      "nrlmsise_mape": 19.89286649262451,
+      "nrlmsise_rmse": 5.168464658979085e-13,
+      "nrlmsise00_mape": 25.143776507768777,
+      "nrlmsise00_rmse": 6.138466892984623e-13
+    },
+    {
+      "lead_step": 9,
+      "count": 578,
+      "nn_mape": 27.547839777475815,
+      "nn_rmse": 7.860552143693171e-13,
+      "nrlmsise_mape": 19.910330159729437,
+      "nrlmsise_rmse": 5.169256475179521e-13,
+      "nrlmsise00_mape": 25.13529314177373,
+      "nrlmsise00_rmse": 6.137581432127559e-13
+    },
+    {
+      "lead_step": 10,
+      "count": 578,
+      "nn_mape": 24.273965928779006,
+      "nn_rmse": 6.767238592357533e-13,
+      "nrlmsise_mape": 19.923201247996943,
+      "nrlmsise_rmse": 5.170347702508997e-13,
+      "nrlmsise00_mape": 25.12346258671782,
+      "nrlmsise00_rmse": 6.134838254724512e-13
+    },
+    {
+      "lead_step": 11,
+      "count": 578,
+      "nn_mape": 22.265187849803844,
+      "nn_rmse": 6.215825494728536e-13,
+      "nrlmsise_mape": 19.92633160531249,
+      "nrlmsise_rmse": 5.17054208395379e-13,
+      "nrlmsise00_mape": 25.105666452230828,
+      "nrlmsise00_rmse": 6.127779996565215e-13
+    },
+    {
+      "lead_step": 12,
+      "count": 578,
+      "nn_mape": 25.40154046996112,
+      "nn_rmse": 6.976582190184954e-13,
+      "nrlmsise_mape": 19.92366859643758,
+      "nrlmsise_rmse": 5.170090512801386e-13,
+      "nrlmsise00_mape": 25.084555003316606,
+      "nrlmsise00_rmse": 6.120815835077233e-13
+    },
+    {
+      "lead_step": 13,
+      "count": 578,
+      "nn_mape": 29.997714382401902,
+      "nn_rmse": 8.088351463507275e-13,
+      "nrlmsise_mape": 19.93292750074121,
+      "nrlmsise_rmse": 5.174263261761639e-13,
+      "nrlmsise00_mape": 25.076800273488466,
+      "nrlmsise00_rmse": 6.119584290982201e-13
+    },
+    {
+      "lead_step": 14,
+      "count": 578,
+      "nn_mape": 31.976653261536082,
+      "nn_rmse": 8.349963423755284e-13,
+      "nrlmsise_mape": 19.957295282072323,
+      "nrlmsise_rmse": 5.182444892800947e-13,
+      "nrlmsise00_mape": 25.08436886854643,
+      "nrlmsise00_rmse": 6.122643700146144e-13
+    },
+    {
+      "lead_step": 15,
+      "count": 578,
+      "nn_mape": 32.74022468415561,
+      "nn_rmse": 8.57378839665212e-13,
+      "nrlmsise_mape": 19.990047015511685,
+      "nrlmsise_rmse": 5.19384120701343e-13,
+      "nrlmsise00_mape": 25.099978792032733,
+      "nrlmsise00_rmse": 6.128324871759359e-13
+    },
+    {
+      "lead_step": 16,
+      "count": 578,
+      "nn_mape": 33.9680653101167,
+      "nn_rmse": 9.00463904942444e-13,
+      "nrlmsise_mape": 19.995666544940967,
+      "nrlmsise_rmse": 5.200554088127975e-13,
+      "nrlmsise00_mape": 25.086368299760313,
+      "nrlmsise00_rmse": 6.130439368247963e-13
+    },
+    {
+      "lead_step": 17,
+      "count": 578,
+      "nn_mape": 35.298256005268605,
+      "nn_rmse": 9.49003392269632e-13,
+      "nrlmsise_mape": 19.940378428684575,
+      "nrlmsise_rmse": 5.19988160477282e-13,
+      "nrlmsise00_mape": 25.00838761155472,
+      "nrlmsise00_rmse": 6.127482710438097e-13
+    },
+    {
+      "lead_step": 18,
+      "count": 578,
+      "nn_mape": 32.3417331275451,
+      "nn_rmse": 8.915842624953121e-13,
+      "nrlmsise_mape": 19.860451164596043,
+      "nrlmsise_rmse": 5.197119100647813e-13,
+      "nrlmsise00_mape": 24.908683361791894,
+      "nrlmsise00_rmse": 6.123700396239892e-13
+    },
+    {
+      "lead_step": 19,
+      "count": 578,
+      "nn_mape": 31.145550206086202,
+      "nn_rmse": 8.554206032214496e-13,
+      "nrlmsise_mape": 19.822432210959786,
+      "nrlmsise_rmse": 5.196602078647288e-13,
+      "nrlmsise00_mape": 24.855433251587826,
+      "nrlmsise00_rmse": 6.122245720467155e-13
+    },
+    {
+      "lead_step": 20,
+      "count": 578,
+      "nn_mape": 31.810731938838437,
+      "nn_rmse": 8.829672503015614e-13,
+      "nrlmsise_mape": 19.841557189023995,
+      "nrlmsise_rmse": 5.199954976155713e-13,
+      "nrlmsise00_mape": 24.860779576517455,
+      "nrlmsise00_rmse": 6.12411019866827e-13
+    },
+    {
+      "lead_step": 21,
+      "count": 578,
+      "nn_mape": 30.062462729012747,
+      "nn_rmse": 8.51787116649514e-13,
+      "nrlmsise_mape": 19.885756739786647,
+      "nrlmsise_rmse": 5.204957704123983e-13,
+      "nrlmsise00_mape": 24.89060299116321,
+      "nrlmsise00_rmse": 6.127128816486311e-13
+    },
+    {
+      "lead_step": 22,
+      "count": 578,
+      "nn_mape": 29.158177461324087,
+      "nn_rmse": 8.343752379047038e-13,
+      "nrlmsise_mape": 19.90376669766618,
+      "nrlmsise_rmse": 5.208280785730643e-13,
+      "nrlmsise00_mape": 24.892200781869924,
+      "nrlmsise00_rmse": 6.127799975972868e-13
+    },
+    {
+      "lead_step": 23,
+      "count": 578,
+      "nn_mape": 33.1070842469977,
+      "nn_rmse": 9.586555936992491e-13,
+      "nrlmsise_mape": 19.887737941561404,
+      "nrlmsise_rmse": 5.208557336943652e-13,
+      "nrlmsise00_mape": 24.857199970692264,
+      "nrlmsise00_rmse": 6.12560097133632e-13
+    },
+    {
+      "lead_step": 24,
+      "count": 578,
+      "nn_mape": 38.69960361631648,
+      "nn_rmse": 1.1043064806963172e-12,
+      "nrlmsise_mape": 19.864931237650758,
+      "nrlmsise_rmse": 5.208201780487823e-13,
+      "nrlmsise00_mape": 24.81343954472657,
+      "nrlmsise00_rmse": 6.123092859300773e-13
+    },
+    {
+      "lead_step": 25,
+      "count": 578,
+      "nn_mape": 36.235587594902086,
+      "nn_rmse": 1.0185267167385533e-12,
+      "nrlmsise_mape": 19.853651281765295,
+      "nrlmsise_rmse": 5.210381451060682e-13,
+      "nrlmsise00_mape": 24.775647088792777,
+      "nrlmsise00_rmse": 6.121256789391068e-13
+    },
+    {
+      "lead_step": 26,
+      "count": 578,
+      "nn_mape": 32.7206962794928,
+      "nn_rmse": 9.385510233901818e-13,
+      "nrlmsise_mape": 19.847403357487668,
+      "nrlmsise_rmse": 5.211986049630964e-13,
+      "nrlmsise00_mape": 24.738534619053937,
+      "nrlmsise00_rmse": 6.117777202398956e-13
+    },
+    {
+      "lead_step": 27,
+      "count": 578,
+      "nn_mape": 33.18749485725554,
+      "nn_rmse": 9.54312945503295e-13,
+      "nrlmsise_mape": 19.84342502458601,
+      "nrlmsise_rmse": 5.211175560296685e-13,
+      "nrlmsise00_mape": 24.706899087289333,
+      "nrlmsise00_rmse": 6.113380124862404e-13
+    },
+    {
+      "lead_step": 28,
+      "count": 578,
+      "nn_mape": 32.06347385825327,
+      "nn_rmse": 8.957945540125722e-13,
+      "nrlmsise_mape": 19.850025961637236,
+      "nrlmsise_rmse": 5.211356727330333e-13,
+      "nrlmsise00_mape": 24.688214997438717,
+      "nrlmsise00_rmse": 6.111496540299507e-13
+    },
+    {
+      "lead_step": 29,
+      "count": 578,
+      "nn_mape": 30.529885327768874,
+      "nn_rmse": 8.376255737380188e-13,
+      "nrlmsise_mape": 19.860987103117488,
+      "nrlmsise_rmse": 5.212352389655777e-13,
+      "nrlmsise00_mape": 24.676908776632494,
+      "nrlmsise00_rmse": 6.108439238184488e-13
+    },
+    {
+      "lead_step": 30,
+      "count": 578,
+      "nn_mape": 29.443643378605007,
+      "nn_rmse": 8.07096475921125e-13,
+      "nrlmsise_mape": 19.864736480306654,
+      "nrlmsise_rmse": 5.212719989557515e-13,
+      "nrlmsise00_mape": 24.66098590506122,
+      "nrlmsise00_rmse": 6.102672539981599e-13
+    },
+    {
+      "lead_step": 31,
+      "count": 578,
+      "nn_mape": 29.153895452260358,
+      "nn_rmse": 8.088750523488819e-13,
+      "nrlmsise_mape": 19.862913523942446,
+      "nrlmsise_rmse": 5.212618349632673e-13,
+      "nrlmsise00_mape": 24.641559507580258,
+      "nrlmsise00_rmse": 6.097400056969761e-13
+    },
+    {
+      "lead_step": 32,
+      "count": 578,
+      "nn_mape": 28.206746364815377,
+      "nn_rmse": 7.799354912763151e-13,
+      "nrlmsise_mape": 19.8656769153268,
+      "nrlmsise_rmse": 5.213892639812071e-13,
+      "nrlmsise00_mape": 24.626796864922053,
+      "nrlmsise00_rmse": 6.09461815871631e-13
+    },
+    {
+      "lead_step": 33,
+      "count": 578,
+      "nn_mape": 25.901201431041592,
+      "nn_rmse": 7.12680679196631e-13,
+      "nrlmsise_mape": 19.876874547991104,
+      "nrlmsise_rmse": 5.216457861719219e-13,
+      "nrlmsise00_mape": 24.620014224195554,
+      "nrlmsise00_rmse": 6.094129336137572e-13
+    },
+    {
+      "lead_step": 34,
+      "count": 578,
+      "nn_mape": 27.91926406567418,
+      "nn_rmse": 7.666147019873143e-13,
+      "nrlmsise_mape": 19.890180801382897,
+      "nrlmsise_rmse": 5.220035551694044e-13,
+      "nrlmsise00_mape": 24.614237026181506,
+      "nrlmsise00_rmse": 6.094455907353964e-13
+    },
+    {
+      "lead_step": 35,
+      "count": 578,
+      "nn_mape": 31.32579784206601,
+      "nn_rmse": 8.511126573303172e-13,
+      "nrlmsise_mape": 19.892435655289376,
+      "nrlmsise_rmse": 5.223546537585667e-13,
+      "nrlmsise00_mape": 24.594866358818344,
+      "nrlmsise00_rmse": 6.09477145645715e-13
+    },
+    {
+      "lead_step": 36,
+      "count": 578,
+      "nn_mape": 31.404787443222702,
+      "nn_rmse": 8.664524198735509e-13,
+      "nrlmsise_mape": 19.87535046139223,
+      "nrlmsise_rmse": 5.225793200786449e-13,
+      "nrlmsise00_mape": 24.555406911373925,
+      "nrlmsise00_rmse": 6.094398634442571e-13
+    },
+    {
+      "lead_step": 37,
+      "count": 578,
+      "nn_mape": 29.814974903229796,
+      "nn_rmse": 8.431409461278209e-13,
+      "nrlmsise_mape": 19.867998230897317,
+      "nrlmsise_rmse": 5.227540043916657e-13,
+      "nrlmsise00_mape": 24.532031760558027,
+      "nrlmsise00_rmse": 6.094638252154772e-13
+    },
+    {
+      "lead_step": 38,
+      "count": 578,
+      "nn_mape": 30.522553342275476,
+      "nn_rmse": 8.628303055453833e-13,
+      "nrlmsise_mape": 19.85816366765314,
+      "nrlmsise_rmse": 5.228007043999754e-13,
+      "nrlmsise00_mape": 24.507849529143666,
+      "nrlmsise00_rmse": 6.094232009873463e-13
+    },
+    {
+      "lead_step": 39,
+      "count": 578,
+      "nn_mape": 33.52911811402791,
+      "nn_rmse": 9.44486567305567e-13,
+      "nrlmsise_mape": 19.845631500005727,
+      "nrlmsise_rmse": 5.22737114963999e-13,
+      "nrlmsise00_mape": 24.479803651755603,
+      "nrlmsise00_rmse": 6.092574050486678e-13
+    },
+    {
+      "lead_step": 40,
+      "count": 578,
+      "nn_mape": 34.37653202316515,
+      "nn_rmse": 9.770040931992667e-13,
+      "nrlmsise_mape": 19.8337349988135,
+      "nrlmsise_rmse": 5.226021873281056e-13,
+      "nrlmsise00_mape": 24.450922432377638,
+      "nrlmsise00_rmse": 6.090170959860379e-13
+    },
+    {
+      "lead_step": 41,
+      "count": 578,
+      "nn_mape": 32.78255101612746,
+      "nn_rmse": 9.520153164070922e-13,
+      "nrlmsise_mape": 19.826281548924268,
+      "nrlmsise_rmse": 5.225387400506258e-13,
+      "nrlmsise00_mape": 24.425351317568527,
+      "nrlmsise00_rmse": 6.088653911393292e-13
+    },
+    {
+      "lead_step": 42,
+      "count": 578,
+      "nn_mape": 31.16464706402619,
+      "nn_rmse": 9.288348096257785e-13,
+      "nrlmsise_mape": 19.849632636169083,
+      "nrlmsise_rmse": 5.226614868535873e-13,
+      "nrlmsise00_mape": 24.431671096332007,
+      "nrlmsise00_rmse": 6.088957279719613e-13
+    },
+    {
+      "lead_step": 43,
+      "count": 578,
+      "nn_mape": 34.54459207103445,
+      "nn_rmse": 1.015505437433431e-12,
+      "nrlmsise_mape": 19.859123446106896,
+      "nrlmsise_rmse": 5.229847090814816e-13,
+      "nrlmsise00_mape": 24.419869010100893,
+      "nrlmsise00_rmse": 6.089422949912111e-13
+    },
+    {
+      "lead_step": 44,
+      "count": 578,
+      "nn_mape": 37.34604340911124,
+      "nn_rmse": 1.0848428695435563e-12,
+      "nrlmsise_mape": 19.837230956111725,
+      "nrlmsise_rmse": 5.230055898120369e-13,
+      "nrlmsise00_mape": 24.368510280201548,
+      "nrlmsise00_rmse": 6.085403021752428e-13
+    },
+    {
+      "lead_step": 45,
+      "count": 578,
+      "nn_mape": 37.87830494933584,
+      "nn_rmse": 1.102701364246384e-12,
+      "nrlmsise_mape": 19.82487145757805,
+      "nrlmsise_rmse": 5.228660688053236e-13,
+      "nrlmsise00_mape": 24.326771068443072,
+      "nrlmsise00_rmse": 6.080898052989608e-13
+    },
+    {
+      "lead_step": 46,
+      "count": 578,
+      "nn_mape": 39.694180825970754,
+      "nn_rmse": 1.1225415034128968e-12,
+      "nrlmsise_mape": 19.823331502843956,
+      "nrlmsise_rmse": 5.228635234426764e-13,
+      "nrlmsise00_mape": 24.32043119145046,
+      "nrlmsise00_rmse": 6.080205104139223e-13
+    },
+    {
+      "lead_step": 47,
+      "count": 578,
+      "nn_mape": 39.08579202278013,
+      "nn_rmse": 1.0694490181790993e-12,
+      "nrlmsise_mape": 19.83183535934768,
+      "nrlmsise_rmse": 5.228904782304668e-13,
+      "nrlmsise00_mape": 24.30573371754396,
+      "nrlmsise00_rmse": 6.079090020319667e-13
+    },
+    {
+      "lead_step": 48,
+      "count": 578,
+      "nn_mape": 33.76181884306686,
+      "nn_rmse": 9.141570918721247e-13,
+      "nrlmsise_mape": 19.835808619525455,
+      "nrlmsise_rmse": 5.228732452076534e-13,
+      "nrlmsise00_mape": 24.28854457102351,
+      "nrlmsise00_rmse": 6.072606635131595e-13
+    },
+    {
+      "lead_step": 49,
+      "count": 578,
+      "nn_mape": 29.923063638460462,
+      "nn_rmse": 8.16527534570749e-13,
+      "nrlmsise_mape": 19.823169285130245,
+      "nrlmsise_rmse": 5.223759314658622e-13,
+      "nrlmsise00_mape": 24.256891670868733,
+      "nrlmsise00_rmse": 6.060964551299681e-13
+    },
+    {
+      "lead_step": 50,
+      "count": 578,
+      "nn_mape": 30.530644862719058,
+      "nn_rmse": 8.439270873323172e-13,
+      "nrlmsise_mape": 19.802669235636735,
+      "nrlmsise_rmse": 5.218151097573164e-13,
+      "nrlmsise00_mape": 24.218071846257097,
+      "nrlmsise00_rmse": 6.051451341928688e-13
+    },
+    {
+      "lead_step": 51,
+      "count": 578,
+      "nn_mape": 29.505838789583382,
+      "nn_rmse": 8.137382626268669e-13,
+      "nrlmsise_mape": 19.805010515793747,
+      "nrlmsise_rmse": 5.218577258093524e-13,
+      "nrlmsise00_mape": 24.202584508036747,
+      "nrlmsise00_rmse": 6.049636754746286e-13
+    },
+    {
+      "lead_step": 52,
+      "count": 578,
+      "nn_mape": 29.807388400713325,
+      "nn_rmse": 8.197166814780319e-13,
+      "nrlmsise_mape": 19.817459536851864,
+      "nrlmsise_rmse": 5.221308805655859e-13,
+      "nrlmsise00_mape": 24.212245551709227,
+      "nrlmsise00_rmse": 6.050582443558766e-13
+    },
+    {
+      "lead_step": 53,
+      "count": 578,
+      "nn_mape": 33.25397412655397,
+      "nn_rmse": 9.176091394395728e-13,
+      "nrlmsise_mape": 19.84779552820757,
+      "nrlmsise_rmse": 5.227535540435151e-13,
+      "nrlmsise00_mape": 24.223058950551472,
+      "nrlmsise00_rmse": 6.053244515158958e-13
+    },
+    {
+      "lead_step": 54,
+      "count": 578,
+      "nn_mape": 34.995631450538376,
+      "nn_rmse": 9.697561954095433e-13,
+      "nrlmsise_mape": 19.853192000939938,
+      "nrlmsise_rmse": 5.232010282338086e-13,
+      "nrlmsise00_mape": 24.204468777409804,
+      "nrlmsise00_rmse": 6.054143289276858e-13
+    },
+    {
+      "lead_step": 55,
+      "count": 578,
+      "nn_mape": 33.94026340814341,
+      "nn_rmse": 9.509477220639683e-13,
+      "nrlmsise_mape": 19.839611093026843,
+      "nrlmsise_rmse": 5.234153559063499e-13,
+      "nrlmsise00_mape": 24.16840532379872,
+      "nrlmsise00_rmse": 6.053862565084246e-13
+    },
+    {
+      "lead_step": 56,
+      "count": 578,
+      "nn_mape": 33.06203112873381,
+      "nn_rmse": 9.247122287500072e-13,
+      "nrlmsise_mape": 19.84032713728006,
+      "nrlmsise_rmse": 5.235596840347876e-13,
+      "nrlmsise00_mape": 24.15274722922475,
+      "nrlmsise00_rmse": 6.054004382610975e-13
+    },
+    {
+      "lead_step": 57,
+      "count": 578,
+      "nn_mape": 36.38700167107521,
+      "nn_rmse": 1.0058196796270515e-12,
+      "nrlmsise_mape": 19.842941059350753,
+      "nrlmsise_rmse": 5.235992900414334e-13,
+      "nrlmsise00_mape": 24.141311469073774,
+      "nrlmsise00_rmse": 6.053742748218017e-13
+    },
+    {
+      "lead_step": 58,
+      "count": 578,
+      "nn_mape": 38.46571658993276,
+      "nn_rmse": 1.0795148410825104e-12,
+      "nrlmsise_mape": 19.81693123858283,
+      "nrlmsise_rmse": 5.234383364673691e-13,
+      "nrlmsise00_mape": 24.099105064904126,
+      "nrlmsise00_rmse": 6.051355939606483e-13
+    },
+    {
+      "lead_step": 59,
+      "count": 578,
+      "nn_mape": 36.439766939471845,
+      "nn_rmse": 1.0493267223320312e-12,
+      "nrlmsise_mape": 19.784140532441953,
+      "nrlmsise_rmse": 5.231624735432976e-13,
+      "nrlmsise00_mape": 24.04777885502752,
+      "nrlmsise00_rmse": 6.047558408373233e-13
+    },
+    {
+      "lead_step": 60,
+      "count": 578,
+      "nn_mape": 33.92322644034678,
+      "nn_rmse": 9.992952830688618e-13,
+      "nrlmsise_mape": 19.77926815270018,
+      "nrlmsise_rmse": 5.230957789101699e-13,
+      "nrlmsise00_mape": 24.024589715547215,
+      "nrlmsise00_rmse": 6.045564883717545e-13
+    },
+    {
+      "lead_step": 61,
+      "count": 578,
+      "nn_mape": 35.0410682334664,
+      "nn_rmse": 1.0401543091511288e-12,
+      "nrlmsise_mape": 19.80611942638695,
+      "nrlmsise_rmse": 5.232330667003434e-13,
+      "nrlmsise00_mape": 24.03366508780457,
+      "nrlmsise00_rmse": 6.046034456927791e-13
+    },
+    {
+      "lead_step": 62,
+      "count": 578,
+      "nn_mape": 39.78477239403377,
+      "nn_rmse": 1.1533885429089402e-12,
+      "nrlmsise_mape": 19.832206271888804,
+      "nrlmsise_rmse": 5.233953733702995e-13,
+      "nrlmsise00_mape": 24.04531299601592,
+      "nrlmsise00_rmse": 6.046650545677562e-13
+    },
+    {
+      "lead_step": 63,
+      "count": 578,
+      "nn_mape": 41.83851192020153,
+      "nn_rmse": 1.1921477556618944e-12,
+      "nrlmsise_mape": 19.85703776757255,
+      "nrlmsise_rmse": 5.235937102460348e-13,
+      "nrlmsise00_mape": 24.04415385842448,
+      "nrlmsise00_rmse": 6.046456426900791e-13
+    },
+    {
+      "lead_step": 64,
+      "count": 578,
+      "nn_mape": 39.08771102358359,
+      "nn_rmse": 1.1129924286346733e-12,
+      "nrlmsise_mape": 19.853300765076142,
+      "nrlmsise_rmse": 5.235457820542369e-13,
+      "nrlmsise00_mape": 24.013854119756985,
+      "nrlmsise00_rmse": 6.043933491232383e-13
+    },
+    {
+      "lead_step": 65,
+      "count": 578,
+      "nn_mape": 40.60861097016317,
+      "nn_rmse": 1.1330822810854245e-12,
+      "nrlmsise_mape": 19.84975110728926,
+      "nrlmsise_rmse": 5.233895667137706e-13,
+      "nrlmsise00_mape": 24.0103043365374,
+      "nrlmsise00_rmse": 6.040980503215756e-13
+    },
+    {
+      "lead_step": 66,
+      "count": 578,
+      "nn_mape": 38.181888288350876,
+      "nn_rmse": 1.0431984346192572e-12,
+      "nrlmsise_mape": 19.84166504065842,
+      "nrlmsise_rmse": 5.230370486052831e-13,
+      "nrlmsise00_mape": 24.001510069709074,
+      "nrlmsise00_rmse": 6.034993622807965e-13
+    },
+    {
+      "lead_step": 67,
+      "count": 578,
+      "nn_mape": 33.93176537206565,
+      "nn_rmse": 9.19335850220052e-13,
+      "nrlmsise_mape": 19.809383274886212,
+      "nrlmsise_rmse": 5.223033330298787e-13,
+      "nrlmsise00_mape": 23.964936978966957,
+      "nrlmsise00_rmse": 6.02385663581494e-13
+    },
+    {
+      "lead_step": 68,
+      "count": 578,
+      "nn_mape": 33.62331209049029,
+      "nn_rmse": 9.026918518108232e-13,
+      "nrlmsise_mape": 19.78364495394264,
+      "nrlmsise_rmse": 5.21550384729908e-13,
+      "nrlmsise00_mape": 23.92216965293348,
+      "nrlmsise00_rmse": 6.012673388850449e-13
+    },
+    {
+      "lead_step": 69,
+      "count": 578,
+      "nn_mape": 34.6336105265547,
+      "nn_rmse": 9.35131964919571e-13,
+      "nrlmsise_mape": 19.76429594213152,
+      "nrlmsise_rmse": 5.210947940823477e-13,
+      "nrlmsise00_mape": 23.8845112393275,
+      "nrlmsise00_rmse": 6.004330379926783e-13
+    },
+    {
+      "lead_step": 70,
+      "count": 578,
+      "nn_mape": 32.88840194747782,
+      "nn_rmse": 8.963394946032667e-13,
+      "nrlmsise_mape": 19.76243866964623,
+      "nrlmsise_rmse": 5.211113424592181e-13,
+      "nrlmsise00_mape": 23.864451259242227,
+      "nrlmsise00_rmse": 6.001320808103018e-13
+    },
+    {
+      "lead_step": 71,
+      "count": 578,
+      "nn_mape": 32.10953830860446,
+      "nn_rmse": 8.839903856249969e-13,
+      "nrlmsise_mape": 19.780868321992564,
+      "nrlmsise_rmse": 5.215279829311498e-13,
+      "nrlmsise00_mape": 23.863885190698127,
+      "nrlmsise00_rmse": 6.002136893307938e-13
+    },
+    {
+      "lead_step": 72,
+      "count": 578,
+      "nn_mape": 37.298611328237456,
+      "nn_rmse": 1.0262228319366222e-12,
+      "nrlmsise_mape": 19.794399212902594,
+      "nrlmsise_rmse": 5.218769615027429e-13,
+      "nrlmsise00_mape": 23.855530061880522,
+      "nrlmsise00_rmse": 6.002522484161957e-13
+    },
+    {
+      "lead_step": 73,
+      "count": 578,
+      "nn_mape": 42.50643428516811,
+      "nn_rmse": 1.1662326407982204e-12,
+      "nrlmsise_mape": 19.781949636149594,
+      "nrlmsise_rmse": 5.21892931143359e-13,
+      "nrlmsise00_mape": 23.815340199956854,
+      "nrlmsise00_rmse": 6.000728191505098e-13
+    },
+    {
+      "lead_step": 74,
+      "count": 578,
+      "nn_mape": 39.45840557577442,
+      "nn_rmse": 1.1022495187861908e-12,
+      "nrlmsise_mape": 19.7306839277065,
+      "nrlmsise_rmse": 5.216949364818635e-13,
+      "nrlmsise00_mape": 23.740260331060043,
+      "nrlmsise00_rmse": 5.997836951399096e-13
+    },
+    {
+      "lead_step": 75,
+      "count": 578,
+      "nn_mape": 38.362364175612754,
+      "nn_rmse": 1.0673503389401496e-12,
+      "nrlmsise_mape": 19.66810602116126,
+      "nrlmsise_rmse": 5.214732898035166e-13,
+      "nrlmsise00_mape": 23.677861919523085,
+      "nrlmsise00_rmse": 5.995477290509778e-13
+    },
+    {
+      "lead_step": 76,
+      "count": 578,
+      "nn_mape": 40.02731498320727,
+      "nn_rmse": 1.1081253746421771e-12,
+      "nrlmsise_mape": 19.638374967450424,
+      "nrlmsise_rmse": 5.213337532979864e-13,
+      "nrlmsise00_mape": 23.64434883311188,
+      "nrlmsise00_rmse": 5.993800825389535e-13
+    },
+    {
+      "lead_step": 77,
+      "count": 578,
+      "nn_mape": 41.14805917221517,
+      "nn_rmse": 1.1518908522214785e-12,
+      "nrlmsise_mape": 19.597835512213916,
+      "nrlmsise_rmse": 5.211059893939556e-13,
+      "nrlmsise00_mape": 23.586118745298293,
+      "nrlmsise00_rmse": 5.990760921109983e-13
+    },
+    {
+      "lead_step": 78,
+      "count": 578,
+      "nn_mape": 40.43249351135109,
+      "nn_rmse": 1.1432351121708705e-12,
+      "nrlmsise_mape": 19.57549735973399,
+      "nrlmsise_rmse": 5.208396044368813e-13,
+      "nrlmsise00_mape": 23.545326046914667,
+      "nrlmsise00_rmse": 5.98657472997397e-13
+    },
+    {
+      "lead_step": 79,
+      "count": 578,
+      "nn_mape": 39.32734643785803,
+      "nn_rmse": 1.1329678363653418e-12,
+      "nrlmsise_mape": 19.57987224971979,
+      "nrlmsise_rmse": 5.208970067386622e-13,
+      "nrlmsise00_mape": 23.531251210904077,
+      "nrlmsise00_rmse": 5.985332162396214e-13
+    },
+    {
+      "lead_step": 80,
+      "count": 578,
+      "nn_mape": 42.2997846130275,
+      "nn_rmse": 1.2236890624148962e-12,
+      "nrlmsise_mape": 19.6006171467729,
+      "nrlmsise_rmse": 5.210083257843951e-13,
+      "nrlmsise00_mape": 23.533139951414682,
+      "nrlmsise00_rmse": 5.985475285586682e-13
+    },
+    {
+      "lead_step": 81,
+      "count": 578,
+      "nn_mape": 41.22527854487642,
+      "nn_rmse": 1.1911033629719568e-12,
+      "nrlmsise_mape": 19.59928244529224,
+      "nrlmsise_rmse": 5.210015934372613e-13,
+      "nrlmsise00_mape": 23.50699531316672,
+      "nrlmsise00_rmse": 5.98417371288147e-13
+    },
+    {
+      "lead_step": 82,
+      "count": 578,
+      "nn_mape": 41.308541122387574,
+      "nn_rmse": 1.1922592304090297e-12,
+      "nrlmsise_mape": 19.57525099378949,
+      "nrlmsise_rmse": 5.208968083780661e-13,
+      "nrlmsise00_mape": 23.472552993346063,
+      "nrlmsise00_rmse": 5.981401934097222e-13
+    },
+    {
+      "lead_step": 83,
+      "count": 578,
+      "nn_mape": 45.45245271327581,
+      "nn_rmse": 1.2850627004161622e-12,
+      "nrlmsise_mape": 19.590599076988603,
+      "nrlmsise_rmse": 5.209348323378069e-13,
+      "nrlmsise00_mape": 23.486586696801986,
+      "nrlmsise00_rmse": 5.981320290544367e-13
+    },
+    {
+      "lead_step": 84,
+      "count": 578,
+      "nn_mape": 46.68968592562053,
+      "nn_rmse": 1.2773868697033708e-12,
+      "nrlmsise_mape": 19.603154797728354,
+      "nrlmsise_rmse": 5.209685967852243e-13,
+      "nrlmsise00_mape": 23.500683950312595,
+      "nrlmsise00_rmse": 5.98130271378415e-13
+    },
+    {
+      "lead_step": 85,
+      "count": 578,
+      "nn_mape": 42.299763352787394,
+      "nn_rmse": 1.1377943272346145e-12,
+      "nrlmsise_mape": 19.57003134239958,
+      "nrlmsise_rmse": 5.202419106942923e-13,
+      "nrlmsise00_mape": 23.456464121290985,
+      "nrlmsise00_rmse": 5.969744467463371e-13
+    },
+    {
+      "lead_step": 86,
+      "count": 578,
+      "nn_mape": 40.30376568069825,
+      "nn_rmse": 1.0746690586118143e-12,
+      "nrlmsise_mape": 19.523901795395236,
+      "nrlmsise_rmse": 5.187781975681149e-13,
+      "nrlmsise00_mape": 23.398525421745475,
+      "nrlmsise00_rmse": 5.950390254807546e-13
+    },
+    {
+      "lead_step": 87,
+      "count": 578,
+      "nn_mape": 41.26857844597174,
+      "nn_rmse": 1.1005572496326907e-12,
+      "nrlmsise_mape": 19.487297921466713,
+      "nrlmsise_rmse": 5.177210513090241e-13,
+      "nrlmsise00_mape": 23.362610434129074,
+      "nrlmsise00_rmse": 5.937503943207266e-13
+    },
+    {
+      "lead_step": 88,
+      "count": 578,
+      "nn_mape": 38.397476870726074,
+      "nn_rmse": 1.0314582743717708e-12,
+      "nrlmsise_mape": 19.465959346582746,
+      "nrlmsise_rmse": 5.17361996176303e-13,
+      "nrlmsise00_mape": 23.339543885895306,
+      "nrlmsise00_rmse": 5.93180887574867e-13
+    },
+    {
+      "lead_step": 89,
+      "count": 578,
+      "nn_mape": 33.89486202547172,
+      "nn_rmse": 9.20100687173889e-13,
+      "nrlmsise_mape": 19.462096026791624,
+      "nrlmsise_rmse": 5.173493649499691e-13,
+      "nrlmsise00_mape": 23.330427399782838,
+      "nrlmsise00_rmse": 5.930971794420144e-13
+    },
+    {
+      "lead_step": 90,
+      "count": 578,
+      "nn_mape": 33.890945110092815,
+      "nn_rmse": 9.327617503563201e-13,
+      "nrlmsise_mape": 19.459522908168697,
+      "nrlmsise_rmse": 5.173451424083095e-13,
+      "nrlmsise00_mape": 23.316506813714433,
+      "nrlmsise00_rmse": 5.93015096588421e-13
+    },
+    {
+      "lead_step": 91,
+      "count": 578,
+      "nn_mape": 42.976373410807156,
+      "nn_rmse": 1.1708624504379494e-12,
+      "nrlmsise_mape": 19.417510582825027,
+      "nrlmsise_rmse": 5.170861146748861e-13,
+      "nrlmsise00_mape": 23.246132556118592,
+      "nrlmsise00_rmse": 5.92524300242618e-13
+    },
+    {
+      "lead_step": 92,
+      "count": 578,
+      "nn_mape": 49.39462824191225,
+      "nn_rmse": 1.3562592929569946e-12,
+      "nrlmsise_mape": 19.329678643369274,
+      "nrlmsise_rmse": 5.166426885975046e-13,
+      "nrlmsise00_mape": 23.129153542115898,
+      "nrlmsise00_rmse": 5.91871493564616e-13
+    },
+    {
+      "lead_step": 93,
+      "count": 578,
+      "nn_mape": 43.94930805746565,
+      "nn_rmse": 1.2319156054298084e-12,
+      "nrlmsise_mape": 19.267894598688716,
+      "nrlmsise_rmse": 5.164004327878781e-13,
+      "nrlmsise00_mape": 23.06511999135869,
+      "nrlmsise00_rmse": 5.915845480324785e-13
+    },
+    {
+      "lead_step": 94,
+      "count": 578,
+      "nn_mape": 38.587888766916436,
+      "nn_rmse": 1.0799080993826215e-12,
+      "nrlmsise_mape": 19.23630834967267,
+      "nrlmsise_rmse": 5.16323671785903e-13,
+      "nrlmsise00_mape": 23.034396355341,
+      "nrlmsise00_rmse": 5.914871173287949e-13
+    },
+    {
+      "lead_step": 95,
+      "count": 578,
+      "nn_mape": 40.69580921207025,
+      "nn_rmse": 1.125425979871953e-12,
+      "nrlmsise_mape": 19.204513752901473,
+      "nrlmsise_rmse": 5.16227928709086e-13,
+      "nrlmsise00_mape": 22.991652186165652,
+      "nrlmsise00_rmse": 5.913470841031691e-13
+    },
+    {
+      "lead_step": 96,
+      "count": 578,
+      "nn_mape": 43.13786025416187,
+      "nn_rmse": 1.1958948882231506e-12,
+      "nrlmsise_mape": 19.162486923531,
+      "nrlmsise_rmse": 5.160097088909254e-13,
+      "nrlmsise00_mape": 22.940654110426486,
+      "nrlmsise00_rmse": 5.910528759878065e-13
+    },
+    {
+      "lead_step": 97,
+      "count": 578,
+      "nn_mape": 42.12264670476976,
+      "nn_rmse": 1.1803227342684157e-12,
+      "nrlmsise_mape": 19.125327742299284,
+      "nrlmsise_rmse": 5.156769074971185e-13,
+      "nrlmsise00_mape": 22.883420410053045,
+      "nrlmsise00_rmse": 5.90586640510516e-13
+    },
+    {
+      "lead_step": 98,
+      "count": 578,
+      "nn_mape": 43.506275727659045,
+      "nn_rmse": 1.2398341277949093e-12,
+      "nrlmsise_mape": 19.106809885020233,
+      "nrlmsise_rmse": 5.155541574788692e-13,
+      "nrlmsise00_mape": 22.844969767115632,
+      "nrlmsise00_rmse": 5.903463255640061e-13
+    },
+    {
+      "lead_step": 99,
+      "count": 578,
+      "nn_mape": 47.051012783892624,
+      "nn_rmse": 1.3356513595588435e-12,
+      "nrlmsise_mape": 19.098708379453413,
+      "nrlmsise_rmse": 5.155371284731028e-13,
+      "nrlmsise00_mape": 22.82796249539233,
+      "nrlmsise00_rmse": 5.902780062579723e-13
+    },
+    {
+      "lead_step": 100,
+      "count": 578,
+      "nn_mape": 48.64655644012101,
+      "nn_rmse": 1.3724559099607119e-12,
+      "nrlmsise_mape": 19.096610083347937,
+      "nrlmsise_rmse": 5.155261786563228e-13,
+      "nrlmsise00_mape": 22.80098570324372,
+      "nrlmsise00_rmse": 5.901621078491183e-13
+    },
+    {
+      "lead_step": 101,
+      "count": 578,
+      "nn_mape": 46.905454634349816,
+      "nn_rmse": 1.3341497740455444e-12,
+      "nrlmsise_mape": 19.085499018931245,
+      "nrlmsise_rmse": 5.154605314805605e-13,
+      "nrlmsise00_mape": 22.76704881038116,
+      "nrlmsise00_rmse": 5.899337256512913e-13
+    },
+    {
+      "lead_step": 102,
+      "count": 578,
+      "nn_mape": 45.89390547226348,
+      "nn_rmse": 1.2903446220738552e-12,
+      "nrlmsise_mape": 19.083094341767996,
+      "nrlmsise_rmse": 5.15410105861254e-13,
+      "nrlmsise00_mape": 22.763263076191517,
+      "nrlmsise00_rmse": 5.897892995061282e-13
+    },
+    {
+      "lead_step": 103,
+      "count": 578,
+      "nn_mape": 44.14560447101143,
+      "nn_rmse": 1.2037806579407512e-12,
+      "nrlmsise_mape": 19.079348044723762,
+      "nrlmsise_rmse": 5.152130799496359e-13,
+      "nrlmsise00_mape": 22.759708613509503,
+      "nrlmsise00_rmse": 5.894192862096019e-13
+    },
+    {
+      "lead_step": 104,
+      "count": 578,
+      "nn_mape": 40.94089279380543,
+      "nn_rmse": 1.081834408355758e-12,
+      "nrlmsise_mape": 19.056722173451302,
+      "nrlmsise_rmse": 5.144691587073732e-13,
+      "nrlmsise00_mape": 22.735263371286937,
+      "nrlmsise00_rmse": 5.883118819336397e-13
+    },
+    {
+      "lead_step": 105,
+      "count": 578,
+      "nn_mape": 41.550022717006684,
+      "nn_rmse": 1.0809078519450601e-12,
+      "nrlmsise_mape": 19.020412906996835,
+      "nrlmsise_rmse": 5.130678115332699e-13,
+      "nrlmsise00_mape": 22.699399047606146,
+      "nrlmsise00_rmse": 5.866397479710939e-13
+    },
+    {
+      "lead_step": 106,
+      "count": 578,
+      "nn_mape": 41.23388609285119,
+      "nn_rmse": 1.0834500225539223e-12,
+      "nrlmsise_mape": 18.979265389032374,
+      "nrlmsise_rmse": 5.116302795635285e-13,
+      "nrlmsise00_mape": 22.658486456038972,
+      "nrlmsise00_rmse": 5.849971703075351e-13
+    },
+    {
+      "lead_step": 107,
+      "count": 578,
+      "nn_mape": 35.19403141941104,
+      "nn_rmse": 9.45228567296533e-13,
+      "nrlmsise_mape": 18.962387000249727,
+      "nrlmsise_rmse": 5.113667697710851e-13,
+      "nrlmsise00_mape": 22.639073240472403,
+      "nrlmsise00_rmse": 5.845628048391294e-13
+    },
+    {
+      "lead_step": 108,
+      "count": 578,
+      "nn_mape": 30.08927010991766,
+      "nn_rmse": 8.271253531661117e-13,
+      "nrlmsise_mape": 18.962126879070027,
+      "nrlmsise_rmse": 5.113666542279954e-13,
+      "nrlmsise00_mape": 22.637487204449222,
+      "nrlmsise00_rmse": 5.845585087044007e-13
+    },
+    {
+      "lead_step": 109,
+      "count": 578,
+      "nn_mape": 32.2882668801186,
+      "nn_rmse": 8.907638127572921e-13,
+      "nrlmsise_mape": 18.952260679414337,
+      "nrlmsise_rmse": 5.113383932408326e-13,
+      "nrlmsise00_mape": 22.605586963502127,
+      "nrlmsise00_rmse": 5.843320535178633e-13
+    },
+    {
+      "lead_step": 110,
+      "count": 578,
+      "nn_mape": 39.89605620781605,
+      "nn_rmse": 1.0867408693839247e-12,
+      "nrlmsise_mape": 18.867347853837156,
+      "nrlmsise_rmse": 5.107344262680348e-13,
+      "nrlmsise00_mape": 22.488685327632016,
+      "nrlmsise00_rmse": 5.834560987068446e-13
+    },
+    {
+      "lead_step": 111,
+      "count": 578,
+      "nn_mape": 46.32478882423626,
+      "nn_rmse": 1.2631847421209407e-12,
+      "nrlmsise_mape": 18.798695671606044,
+      "nrlmsise_rmse": 5.104065756400709e-13,
+      "nrlmsise00_mape": 22.405249434113223,
+      "nrlmsise00_rmse": 5.829919175446742e-13
+    },
+    {
+      "lead_step": 112,
+      "count": 578,
+      "nn_mape": 45.67362496515439,
+      "nn_rmse": 1.2508928565072659e-12,
+      "nrlmsise_mape": 18.75647790468589,
+      "nrlmsise_rmse": 5.102512805885675e-13,
+      "nrlmsise00_mape": 22.361649497920467,
+      "nrlmsise00_rmse": 5.827963658279129e-13
+    },
+    {
+      "lead_step": 113,
+      "count": 578,
+      "nn_mape": 46.25955375494172,
+      "nn_rmse": 1.2612362404219435e-12,
+      "nrlmsise_mape": 18.736317031072485,
+      "nrlmsise_rmse": 5.102079162951362e-13,
+      "nrlmsise00_mape": 22.33223684477749,
+      "nrlmsise00_rmse": 5.827224621597207e-13
+    },
+    {
+      "lead_step": 114,
+      "count": 578,
+      "nn_mape": 46.97437807680591,
+      "nn_rmse": 1.285859588201126e-12,
+      "nrlmsise_mape": 18.711156472837732,
+      "nrlmsise_rmse": 5.101412364053831e-13,
+      "nrlmsise00_mape": 22.30090476918817,
+      "nrlmsise00_rmse": 5.826135318689771e-13
+    },
+    {
+      "lead_step": 115,
+      "count": 578,
+      "nn_mape": 42.214141393262835,
+      "nn_rmse": 1.1720739119536348e-12,
+      "nrlmsise_mape": 18.677024241309233,
+      "nrlmsise_rmse": 5.099310151000844e-13,
+      "nrlmsise00_mape": 22.26461113182658,
+      "nrlmsise00_rmse": 5.82322938407256e-13
+    },
+    {
+      "lead_step": 116,
+      "count": 578,
+      "nn_mape": 39.081241046066644,
+      "nn_rmse": 1.1047774179716323e-12,
+      "nrlmsise_mape": 18.631226079601447,
+      "nrlmsise_rmse": 5.095812537848435e-13,
+      "nrlmsise00_mape": 22.209646296153494,
+      "nrlmsise00_rmse": 5.818425701385484e-13
+    },
+    {
+      "lead_step": 117,
+      "count": 578,
+      "nn_mape": 40.32507868460375,
+      "nn_rmse": 1.1542009327649785e-12,
+      "nrlmsise_mape": 18.60729953334231,
+      "nrlmsise_rmse": 5.094576339566336e-13,
+      "nrlmsise00_mape": 22.169224603905565,
+      "nrlmsise00_rmse": 5.816171493725364e-13
+    },
+    {
+      "lead_step": 118,
+      "count": 578,
+      "nn_mape": 42.788199284764005,
+      "nn_rmse": 1.214237986057851e-12,
+      "nrlmsise_mape": 18.599065784532634,
+      "nrlmsise_rmse": 5.094409232967738e-13,
+      "nrlmsise00_mape": 22.153456600846276,
+      "nrlmsise00_rmse": 5.815507718213858e-13
+    },
+    {
+      "lead_step": 119,
+      "count": 578,
+      "nn_mape": 41.515687055141754,
+      "nn_rmse": 1.1801167821298316e-12,
+      "nrlmsise_mape": 18.59321227121747,
+      "nrlmsise_rmse": 5.094293896918717e-13,
+      "nrlmsise00_mape": 22.1373816315868,
+      "nrlmsise00_rmse": 5.814642548702473e-13
+    },
+    {
+      "lead_step": 120,
+      "count": 578,
+      "nn_mape": 42.02770603976878,
+      "nn_rmse": 1.19495354056884e-12,
+      "nrlmsise_mape": 18.59652006789743,
+      "nrlmsise_rmse": 5.09415451208387e-13,
+      "nrlmsise00_mape": 22.135738380196088,
+      "nrlmsise00_rmse": 5.813607727105667e-13
+    },
+    {
+      "lead_step": 121,
+      "count": 578,
+      "nn_mape": 45.741310388660175,
+      "nn_rmse": 1.2597866593486363e-12,
+      "nrlmsise_mape": 18.593316863130767,
+      "nrlmsise_rmse": 5.093041100457082e-13,
+      "nrlmsise00_mape": 22.132168307258794,
+      "nrlmsise00_rmse": 5.811277741523498e-13
+    },
+    {
+      "lead_step": 122,
+      "count": 578,
+      "nn_mape": 47.32491716348239,
+      "nn_rmse": 1.2624197117521789e-12,
+      "nrlmsise_mape": 18.565417545101354,
+      "nrlmsise_rmse": 5.088181497316743e-13,
+      "nrlmsise00_mape": 22.102566608000707,
+      "nrlmsise00_rmse": 5.803299926643668e-13
+    },
+    {
+      "lead_step": 123,
+      "count": 578,
+      "nn_mape": 44.09039390025223,
+      "nn_rmse": 1.1501385398002137e-12,
+      "nrlmsise_mape": 18.528431265059645,
+      "nrlmsise_rmse": 5.076666307265588e-13,
+      "nrlmsise00_mape": 22.063731664931787,
+      "nrlmsise00_rmse": 5.787442486034575e-13
+    },
+    {
+      "lead_step": 124,
+      "count": 578,
+      "nn_mape": 39.724594701773064,
+      "nn_rmse": 1.0310132482217363e-12,
+      "nrlmsise_mape": 18.51096667816976,
+      "nrlmsise_rmse": 5.068568467202286e-13,
+      "nrlmsise00_mape": 22.048137392104785,
+      "nrlmsise00_rmse": 5.777804433074981e-13
+    },
+    {
+      "lead_step": 125,
+      "count": 578,
+      "nn_mape": 33.658598700268904,
+      "nn_rmse": 8.967199255936787e-13,
+      "nrlmsise_mape": 18.50640987927865,
+      "nrlmsise_rmse": 5.0664171267702e-13,
+      "nrlmsise00_mape": 22.044467051973143,
+      "nrlmsise00_rmse": 5.775191360763558e-13
+    },
+    {
+      "lead_step": 126,
+      "count": 578,
+      "nn_mape": 28.980593193949833,
+      "nn_rmse": 7.970805207400683e-13,
+      "nrlmsise_mape": 18.501547136226584,
+      "nrlmsise_rmse": 5.065652528922901e-13,
+      "nrlmsise00_mape": 22.03748448096104,
+      "nrlmsise00_rmse": 5.773689226221074e-13
+    },
+    {
+      "lead_step": 127,
+      "count": 578,
+      "nn_mape": 29.390063489962326,
+      "nn_rmse": 8.200210366965057e-13,
+      "nrlmsise_mape": 18.486379097723614,
+      "nrlmsise_rmse": 5.064801290527826e-13,
+      "nrlmsise00_mape": 22.02001058467119,
+      "nrlmsise00_rmse": 5.772036996695727e-13
+    },
+    {
+      "lead_step": 128,
+      "count": 578,
+      "nn_mape": 35.962706677426965,
+      "nn_rmse": 9.889387011455224e-13,
+      "nrlmsise_mape": 18.458004904323467,
+      "nrlmsise_rmse": 5.062836841383783e-13,
+      "nrlmsise00_mape": 21.969860345613686,
+      "nrlmsise00_rmse": 5.768181320820502e-13
+    },
+    {
+      "lead_step": 129,
+      "count": 578,
+      "nn_mape": 44.785891787460955,
+      "nn_rmse": 1.219269606428135e-12,
+      "nrlmsise_mape": 18.368799258759953,
+      "nrlmsise_rmse": 5.057309896089836e-13,
+      "nrlmsise00_mape": 21.844924644932913,
+      "nrlmsise00_rmse": 5.759942297128865e-13
+    },
+    {
+      "lead_step": 130,
+      "count": 578,
+      "nn_mape": 46.57483143074464,
+      "nn_rmse": 1.2755150354512141e-12,
+      "nrlmsise_mape": 18.257419082270932,
+      "nrlmsise_rmse": 5.051497872361269e-13,
+      "nrlmsise00_mape": 21.71488567257838,
+      "nrlmsise00_rmse": 5.75248704036602e-13
+    },
+    {
+      "lead_step": 131,
+      "count": 578,
+      "nn_mape": 42.54801017428454,
+      "nn_rmse": 1.169696081658455e-12,
+      "nrlmsise_mape": 18.22439534940983,
+      "nrlmsise_rmse": 5.049768250312247e-13,
+      "nrlmsise00_mape": 21.681290694993503,
+      "nrlmsise00_rmse": 5.750522639319423e-13
+    },
+    {
+      "lead_step": 132,
+      "count": 578,
+      "nn_mape": 42.3178754028024,
+      "nn_rmse": 1.1617159807179002e-12,
+      "nrlmsise_mape": 18.19840168218417,
+      "nrlmsise_rmse": 5.049190414159593e-13,
+      "nrlmsise00_mape": 21.65391487358684,
+      "nrlmsise00_rmse": 5.74963162881078e-13
+    },
+    {
+      "lead_step": 133,
+      "count": 578,
+      "nn_mape": 46.057928528741215,
+      "nn_rmse": 1.2804037220259903e-12,
+      "nrlmsise_mape": 18.182584994583646,
+      "nrlmsise_rmse": 5.048197515454156e-13,
+      "nrlmsise00_mape": 21.62056790164816,
+      "nrlmsise00_rmse": 5.747767397031069e-13
+    },
+    {
+      "lead_step": 134,
+      "count": 578,
+      "nn_mape": 46.07343398284888,
+      "nn_rmse": 1.301137236841391e-12,
+      "nrlmsise_mape": 18.140214540164127,
+      "nrlmsise_rmse": 5.045243547903292e-13,
+      "nrlmsise00_mape": 21.56799972529132,
+      "nrlmsise00_rmse": 5.743731497096852e-13
+    },
+    {
+      "lead_step": 135,
+      "count": 578,
+      "nn_mape": 44.35268801911239,
+      "nn_rmse": 1.2740914245519015e-12,
+      "nrlmsise_mape": 18.116822263858364,
+      "nrlmsise_rmse": 5.042407225582421e-13,
+      "nrlmsise00_mape": 21.541631157953518,
+      "nrlmsise00_rmse": 5.739879453283112e-13
+    },
+    {
+      "lead_step": 136,
+      "count": 578,
+      "nn_mape": 45.03697775011777,
+      "nn_rmse": 1.299845091774236e-12,
+      "nrlmsise_mape": 18.11257655857596,
+      "nrlmsise_rmse": 5.041709073232653e-13,
+      "nrlmsise00_mape": 21.535168355181643,
+      "nrlmsise00_rmse": 5.738708385830247e-13
+    },
+    {
+      "lead_step": 137,
+      "count": 578,
+      "nn_mape": 44.08624288052184,
+      "nn_rmse": 1.2593177085338732e-12,
+      "nrlmsise_mape": 18.089531405007538,
+      "nrlmsise_rmse": 5.039985101824825e-13,
+      "nrlmsise00_mape": 21.50800471808976,
+      "nrlmsise00_rmse": 5.736147814458886e-13
+    },
+    {
+      "lead_step": 138,
+      "count": 578,
+      "nn_mape": 42.87692591544464,
+      "nn_rmse": 1.2164035562036973e-12,
+      "nrlmsise_mape": 18.047667479551013,
+      "nrlmsise_rmse": 5.037437915399213e-13,
+      "nrlmsise00_mape": 21.457351912275062,
+      "nrlmsise00_rmse": 5.731716956078169e-13
+    },
+    {
+      "lead_step": 139,
+      "count": 578,
+      "nn_mape": 44.204922559352376,
+      "nn_rmse": 1.2354020713579255e-12,
+      "nrlmsise_mape": 18.02521117942856,
+      "nrlmsise_rmse": 5.036037468351782e-13,
+      "nrlmsise00_mape": 21.425686976866636,
+      "nrlmsise00_rmse": 5.728554907558459e-13
+    },
+    {
+      "lead_step": 140,
+      "count": 578,
+      "nn_mape": 47.97411482988805,
+      "nn_rmse": 1.3015523318082825e-12,
+      "nrlmsise_mape": 18.01626546412074,
+      "nrlmsise_rmse": 5.034590510944967e-13,
+      "nrlmsise00_mape": 21.415820817218016,
+      "nrlmsise00_rmse": 5.725521994845084e-13
+    },
+    {
+      "lead_step": 141,
+      "count": 578,
+      "nn_mape": 47.80565112995864,
+      "nn_rmse": 1.2726209979107414e-12,
+      "nrlmsise_mape": 18.005051276714457,
+      "nrlmsise_rmse": 5.027410760610222e-13,
+      "nrlmsise00_mape": 21.403625209701787,
+      "nrlmsise00_rmse": 5.71475548851967e-13
+    },
+    {
+      "lead_step": 142,
+      "count": 578,
+      "nn_mape": 42.488372081332564,
+      "nn_rmse": 1.119273730213844e-12,
+      "nrlmsise_mape": 17.976333497514567,
+      "nrlmsise_rmse": 5.013433666162905e-13,
+      "nrlmsise00_mape": 21.374354791420387,
+      "nrlmsise00_rmse": 5.697017132156683e-13
+    },
+    {
+      "lead_step": 143,
+      "count": 578,
+      "nn_mape": 40.64215027068177,
+      "nn_rmse": 1.0761531219642288e-12,
+      "nrlmsise_mape": 17.95088882764041,
+      "nrlmsise_rmse": 5.005565785987899e-13,
+      "nrlmsise00_mape": 21.35061015965867,
+      "nrlmsise00_rmse": 5.687404969253696e-13
+    },
+    {
+      "lead_step": 144,
+      "count": 578,
+      "nn_mape": 35.55309477820398,
+      "nn_rmse": 9.667883344677605e-13,
+      "nrlmsise_mape": 17.93579018818243,
+      "nrlmsise_rmse": 5.002572843360224e-13,
+      "nrlmsise00_mape": 21.33539180490133,
+      "nrlmsise00_rmse": 5.683105892743197e-13
+    },
+    {
+      "lead_step": 145,
+      "count": 578,
+      "nn_mape": 31.302411008773788,
+      "nn_rmse": 8.691962355679702e-13,
+      "nrlmsise_mape": 17.92728106231238,
+      "nrlmsise_rmse": 5.001577934472328e-13,
+      "nrlmsise00_mape": 21.32447283136991,
+      "nrlmsise00_rmse": 5.681392223480749e-13
+    },
+    {
+      "lead_step": 146,
+      "count": 578,
+      "nn_mape": 31.595597953476144,
+      "nn_rmse": 8.856987740332709e-13,
+      "nrlmsise_mape": 17.903506640656666,
+      "nrlmsise_rmse": 4.999653865080395e-13,
+      "nrlmsise00_mape": 21.298234924049698,
+      "nrlmsise00_rmse": 5.678622881060523e-13
+    },
+    {
+      "lead_step": 147,
+      "count": 578,
+      "nn_mape": 35.92357515634937,
+      "nn_rmse": 1.0053875880905452e-12,
+      "nrlmsise_mape": 17.86089126733478,
+      "nrlmsise_rmse": 4.996764860078254e-13,
+      "nrlmsise00_mape": 21.234616223881346,
+      "nrlmsise00_rmse": 5.673929357094107e-13
+    },
+    {
+      "lead_step": 148,
+      "count": 578,
+      "nn_mape": 40.782286088142875,
+      "nn_rmse": 1.1280124573384515e-12,
+      "nrlmsise_mape": 17.820301742134905,
+      "nrlmsise_rmse": 4.994895835295652e-13,
+      "nrlmsise00_mape": 21.181195971660753,
+      "nrlmsise00_rmse": 5.6706964769017e-13
+    },
+    {
+      "lead_step": 149,
+      "count": 578,
+      "nn_mape": 41.20368019513305,
+      "nn_rmse": 1.1303653651829649e-12,
+      "nrlmsise_mape": 17.796553283260906,
+      "nrlmsise_rmse": 4.993590936366632e-13,
+      "nrlmsise00_mape": 21.148824059943745,
+      "nrlmsise00_rmse": 5.668623282434805e-13
+    },
+    {
+      "lead_step": 150,
+      "count": 578,
+      "nn_mape": 37.85237959437295,
+      "nn_rmse": 1.0424180680510261e-12,
+      "nrlmsise_mape": 17.707929632136686,
+      "nrlmsise_rmse": 4.989191927180673e-13,
+      "nrlmsise00_mape": 21.054939096663222,
+      "nrlmsise00_rmse": 5.663649354988069e-13
+    },
+    {
+      "lead_step": 151,
+      "count": 578,
+      "nn_mape": 41.808035939102716,
+      "nn_rmse": 1.152628626844873e-12,
+      "nrlmsise_mape": 17.616454825451893,
+      "nrlmsise_rmse": 4.984818887861984e-13,
+      "nrlmsise00_mape": 20.95776118139965,
+      "nrlmsise00_rmse": 5.658637092163574e-13
+    },
+    {
+      "lead_step": 152,
+      "count": 578,
+      "nn_mape": 45.55076800712807,
+      "nn_rmse": 1.2729770772614078e-12,
+      "nrlmsise_mape": 17.5579518206624,
+      "nrlmsise_rmse": 4.979806316359419e-13,
+      "nrlmsise00_mape": 20.895560328677142,
+      "nrlmsise00_rmse": 5.652858050492566e-13
+    },
+    {
+      "lead_step": 153,
+      "count": 578,
+      "nn_mape": 44.88561958811623,
+      "nn_rmse": 1.2740653937207397e-12,
+      "nrlmsise_mape": 17.51417681563251,
+      "nrlmsise_rmse": 4.973889819652158e-13,
+      "nrlmsise00_mape": 20.8490217902048,
+      "nrlmsise00_rmse": 5.645768302302093e-13
+    },
+    {
+      "lead_step": 154,
+      "count": 578,
+      "nn_mape": 45.410042793289854,
+      "nn_rmse": 1.304372672886663e-12,
+      "nrlmsise_mape": 17.46783451078796,
+      "nrlmsise_rmse": 4.969700439940976e-13,
+      "nrlmsise00_mape": 20.798494451978016,
+      "nrlmsise00_rmse": 5.640397481623593e-13
+    },
+    {
+      "lead_step": 155,
+      "count": 578,
+      "nn_mape": 46.88976344244274,
+      "nn_rmse": 1.3482316915857257e-12,
+      "nrlmsise_mape": 17.44185013532041,
+      "nrlmsise_rmse": 4.967949514871376e-13,
+      "nrlmsise00_mape": 20.769917201491335,
+      "nrlmsise00_rmse": 5.638037619202352e-13
+    },
+    {
+      "lead_step": 156,
+      "count": 578,
+      "nn_mape": 43.24154505403172,
+      "nn_rmse": 1.2399968613831129e-12,
+      "nrlmsise_mape": 17.428038572157927,
+      "nrlmsise_rmse": 4.966767014469242e-13,
+      "nrlmsise00_mape": 20.75264419341977,
+      "nrlmsise00_rmse": 5.636120365444423e-13
+    },
+    {
+      "lead_step": 157,
+      "count": 578,
+      "nn_mape": 36.49143929318069,
+      "nn_rmse": 1.0572701424621267e-12,
+      "nrlmsise_mape": 17.41949073903619,
+      "nrlmsise_rmse": 4.96568620132424e-13,
+      "nrlmsise00_mape": 20.736681482791848,
+      "nrlmsise00_rmse": 5.633584237907341e-13
+    },
+    {
+      "lead_step": 158,
+      "count": 578,
+      "nn_mape": 34.86292429320312,
+      "nn_rmse": 9.981911177643618e-13,
+      "nrlmsise_mape": 17.418515172858275,
+      "nrlmsise_rmse": 4.964696993615508e-13,
+      "nrlmsise00_mape": 20.731163570401154,
+      "nrlmsise00_rmse": 5.631045092304774e-13
+    },
+    {
+      "lead_step": 159,
+      "count": 578,
+      "nn_mape": 37.181733024886846,
+      "nn_rmse": 1.0378254081521735e-12,
+      "nrlmsise_mape": 17.415288138475017,
+      "nrlmsise_rmse": 4.962705517639184e-13,
+      "nrlmsise00_mape": 20.727377510416947,
+      "nrlmsise00_rmse": 5.626889921260491e-13
+    },
+    {
+      "lead_step": 160,
+      "count": 578,
+      "nn_mape": 40.01079252374192,
+      "nn_rmse": 1.0931869751310285e-12,
+      "nrlmsise_mape": 17.37662830059509,
+      "nrlmsise_rmse": 4.953919626598652e-13,
+      "nrlmsise00_mape": 20.68619122988017,
+      "nrlmsise00_rmse": 5.613049777632681e-13
+    },
+    {
+      "lead_step": 161,
+      "count": 578,
+      "nn_mape": 40.497674666596296,
+      "nn_rmse": 1.0889507506928924e-12,
+      "nrlmsise_mape": 17.33454350916194,
+      "nrlmsise_rmse": 4.940221463540614e-13,
+      "nrlmsise00_mape": 20.6441546493919,
+      "nrlmsise00_rmse": 5.595355272353316e-13
+    },
+    {
+      "lead_step": 162,
+      "count": 578,
+      "nn_mape": 36.89771616566298,
+      "nn_rmse": 1.001929214018064e-12,
+      "nrlmsise_mape": 17.329868596964577,
+      "nrlmsise_rmse": 4.936828109444925e-13,
+      "nrlmsise00_mape": 20.64234709234596,
+      "nrlmsise00_rmse": 5.591859098395699e-13
+    },
+    {
+      "lead_step": 163,
+      "count": 578,
+      "nn_mape": 32.56460957985462,
+      "nn_rmse": 8.995789566159062e-13,
+      "nrlmsise_mape": 17.338694094602218,
+      "nrlmsise_rmse": 4.93858655569626e-13,
+      "nrlmsise00_mape": 20.651044465972067,
+      "nrlmsise00_rmse": 5.593912675935394e-13
+    },
+    {
+      "lead_step": 164,
+      "count": 578,
+      "nn_mape": 30.01154079162287,
+      "nn_rmse": 8.39482327790636e-13,
+      "nrlmsise_mape": 17.329577495060022,
+      "nrlmsise_rmse": 4.937838339501087e-13,
+      "nrlmsise00_mape": 20.639741939942642,
+      "nrlmsise00_rmse": 5.592497860566518e-13
+    },
+    {
+      "lead_step": 165,
+      "count": 578,
+      "nn_mape": 30.584398448853612,
+      "nn_rmse": 8.677113112078173e-13,
+      "nrlmsise_mape": 17.291662748843734,
+      "nrlmsise_rmse": 4.934757428008291e-13,
+      "nrlmsise00_mape": 20.592528712182514,
+      "nrlmsise00_rmse": 5.588038351193039e-13
+    },
+    {
+      "lead_step": 166,
+      "count": 578,
+      "nn_mape": 32.24499458479462,
+      "nn_rmse": 9.15142813613897e-13,
+      "nrlmsise_mape": 17.21415171735127,
+      "nrlmsise_rmse": 4.928983397479821e-13,
+      "nrlmsise00_mape": 20.49685334387395,
+      "nrlmsise00_rmse": 5.580515898815273e-13
+    },
+    {
+      "lead_step": 167,
+      "count": 578,
+      "nn_mape": 32.665634968886174,
+      "nn_rmse": 9.218531082405434e-13,
+      "nrlmsise_mape": 17.131710696507657,
+      "nrlmsise_rmse": 4.924902951068753e-13,
+      "nrlmsise00_mape": 20.39539108096131,
+      "nrlmsise00_rmse": 5.574598959758068e-13
+    },
+    {
+      "lead_step": 168,
+      "count": 578,
+      "nn_mape": 32.200357498175904,
+      "nn_rmse": 9.09284726199504e-13,
+      "nrlmsise_mape": 17.076005617710134,
+      "nrlmsise_rmse": 4.922242218458481e-13,
+      "nrlmsise00_mape": 20.32952135474765,
+      "nrlmsise00_rmse": 5.570915443497789e-13
+    },
+    {
+      "lead_step": 169,
+      "count": 578,
+      "nn_mape": 32.48925317987033,
+      "nn_rmse": 9.280122184652734e-13,
+      "nrlmsise_mape": 17.030991924539485,
+      "nrlmsise_rmse": 4.919656294699753e-13,
+      "nrlmsise00_mape": 20.280498070347225,
+      "nrlmsise00_rmse": 5.56785821292488e-13
+    },
+    {
+      "lead_step": 170,
+      "count": 578,
+      "nn_mape": 35.39317959532005,
+      "nn_rmse": 1.0263146687404343e-12,
+      "nrlmsise_mape": 16.982536181809056,
+      "nrlmsise_rmse": 4.916538426062353e-13,
+      "nrlmsise00_mape": 20.228112386929872,
+      "nrlmsise00_rmse": 5.564177023854951e-13
+    },
+    {
+      "lead_step": 171,
+      "count": 578,
+      "nn_mape": 38.328824787325246,
+      "nn_rmse": 1.1227111153295583e-12,
+      "nrlmsise_mape": 16.903395449075724,
+      "nrlmsise_rmse": 4.909121010743388e-13,
+      "nrlmsise00_mape": 20.14479799083233,
+      "nrlmsise00_rmse": 5.555663534339383e-13
+    },
+    {
+      "lead_step": 172,
+      "count": 578,
+      "nn_mape": 38.84239006361902,
+      "nn_rmse": 1.1502579843449664e-12,
+      "nrlmsise_mape": 16.80585028172863,
+      "nrlmsise_rmse": 4.897737120734229e-13,
+      "nrlmsise00_mape": 20.041483457538504,
+      "nrlmsise00_rmse": 5.542810160917659e-13
+    },
+    {
+      "lead_step": 173,
+      "count": 578,
+      "nn_mape": 40.79045994642492,
+      "nn_rmse": 1.2082231411188417e-12,
+      "nrlmsise_mape": 16.765946416020082,
+      "nrlmsise_rmse": 4.893030701729205e-13,
+      "nrlmsise00_mape": 19.997861476125482,
+      "nrlmsise00_rmse": 5.537303955180183e-13
+    },
+    {
+      "lead_step": 174,
+      "count": 578,
+      "nn_mape": 45.51601523901026,
+      "nn_rmse": 1.3140431594091515e-12,
+      "nrlmsise_mape": 16.7732910473816,
+      "nrlmsise_rmse": 4.893041559686172e-13,
+      "nrlmsise00_mape": 20.004878102829014,
+      "nrlmsise00_rmse": 5.537089730458503e-13
+    },
+    {
+      "lead_step": 175,
+      "count": 578,
+      "nn_mape": 43.65064122647316,
+      "nn_rmse": 1.2465786749662403e-12,
+      "nrlmsise_mape": 16.756069066530127,
+      "nrlmsise_rmse": 4.891389003139278e-13,
+      "nrlmsise00_mape": 19.98235410520782,
+      "nrlmsise00_rmse": 5.534338230986864e-13
+    },
+    {
+      "lead_step": 176,
+      "count": 578,
+      "nn_mape": 38.754304544513914,
+      "nn_rmse": 1.1077355908687798e-12,
+      "nrlmsise_mape": 16.755204781728796,
+      "nrlmsise_rmse": 4.89091364666324e-13,
+      "nrlmsise00_mape": 19.973851843379972,
+      "nrlmsise00_rmse": 5.532548490366299e-13
+    },
+    {
+      "lead_step": 177,
+      "count": 578,
+      "nn_mape": 36.81260885176801,
+      "nn_rmse": 1.0412735148978012e-12,
+      "nrlmsise_mape": 16.79354501875355,
+      "nrlmsise_rmse": 4.892680819258947e-13,
+      "nrlmsise00_mape": 20.01122807568219,
+      "nrlmsise00_rmse": 5.534161588226274e-13
+    },
+    {
+      "lead_step": 178,
+      "count": 578,
+      "nn_mape": 39.02436922959871,
+      "nn_rmse": 1.0903498961531944e-12,
+      "nrlmsise_mape": 16.81040843364396,
+      "nrlmsise_rmse": 4.893142456705698e-13,
+      "nrlmsise00_mape": 20.028840806346828,
+      "nrlmsise00_rmse": 5.533363589720941e-13
+    },
+    {
+      "lead_step": 179,
+      "count": 578,
+      "nn_mape": 41.07487617397936,
+      "nn_rmse": 1.1328718101074882e-12,
+      "nrlmsise_mape": 16.77492265434975,
+      "nrlmsise_rmse": 4.88406921995537e-13,
+      "nrlmsise00_mape": 19.992089995277748,
+      "nrlmsise00_rmse": 5.519281166347543e-13
+    },
+    {
+      "lead_step": 180,
+      "count": 578,
+      "nn_mape": 38.992373396197486,
+      "nn_rmse": 1.0619928260151071e-12,
+      "nrlmsise_mape": 16.727373476056503,
+      "nrlmsise_rmse": 4.867342819585472e-13,
+      "nrlmsise00_mape": 19.94505978440243,
+      "nrlmsise00_rmse": 5.498649043048754e-13
+    },
+    {
+      "lead_step": 181,
+      "count": 578,
+      "nn_mape": 36.05791002148253,
+      "nn_rmse": 9.894355814834418e-13,
+      "nrlmsise_mape": 16.69975279860051,
+      "nrlmsise_rmse": 4.857070107751971e-13,
+      "nrlmsise00_mape": 19.918393740814125,
+      "nrlmsise00_rmse": 5.487251549812627e-13
+    },
+    {
+      "lead_step": 182,
+      "count": 578,
+      "nn_mape": 36.24622782207184,
+      "nn_rmse": 9.956722307649204e-13,
+      "nrlmsise_mape": 16.68952712213799,
+      "nrlmsise_rmse": 4.85480478347105e-13,
+      "nrlmsise00_mape": 19.90668599223974,
+      "nrlmsise00_rmse": 5.484081698512376e-13
+    },
+    {
+      "lead_step": 183,
+      "count": 578,
+      "nn_mape": 38.397835581868385,
+      "nn_rmse": 1.055036217538361e-12,
+      "nrlmsise_mape": 16.675767197149398,
+      "nrlmsise_rmse": 4.854001075414902e-13,
+      "nrlmsise00_mape": 19.891201454086683,
+      "nrlmsise00_rmse": 5.482563103884152e-13
+    },
+    {
+      "lead_step": 184,
+      "count": 578,
+      "nn_mape": 37.636296233348595,
+      "nn_rmse": 1.053381396601338e-12,
+      "nrlmsise_mape": 16.65382212254543,
+      "nrlmsise_rmse": 4.852735108312151e-13,
+      "nrlmsise00_mape": 19.856624241900914,
+      "nrlmsise00_rmse": 5.480221148423004e-13
+    },
+    {
+      "lead_step": 185,
+      "count": 578,
+      "nn_mape": 33.104287228791854,
+      "nn_rmse": 9.426136443284e-13,
+      "nrlmsise_mape": 16.594081440805493,
+      "nrlmsise_rmse": 4.849274725607804e-13,
+      "nrlmsise00_mape": 19.779033198289667,
+      "nrlmsise00_rmse": 5.475384345133998e-13
+    },
+    {
+      "lead_step": 186,
+      "count": 578,
+      "nn_mape": 31.119736894408206,
+      "nn_rmse": 8.844985976560798e-13,
+      "nrlmsise_mape": 16.54275126623062,
+      "nrlmsise_rmse": 4.846793904687946e-13,
+      "nrlmsise00_mape": 19.71560939190193,
+      "nrlmsise00_rmse": 5.471692736722768e-13
+    },
+    {
+      "lead_step": 187,
+      "count": 578,
+      "nn_mape": 31.962001028619312,
+      "nn_rmse": 9.038319552945682e-13,
+      "nrlmsise_mape": 16.508576530620743,
+      "nrlmsise_rmse": 4.844739827660692e-13,
+      "nrlmsise00_mape": 19.673836558750484,
+      "nrlmsise00_rmse": 5.46889826224489e-13
+    },
+    {
+      "lead_step": 188,
+      "count": 578,
+      "nn_mape": 35.6005852174971,
+      "nn_rmse": 1.016267853114442e-12,
+      "nrlmsise_mape": 16.452668165446084,
+      "nrlmsise_rmse": 4.841977735832072e-13,
+      "nrlmsise00_mape": 19.612210683600182,
+      "nrlmsise00_rmse": 5.465497214808057e-13
+    },
+    {
+      "lead_step": 189,
+      "count": 578,
+      "nn_mape": 40.13922527717307,
+      "nn_rmse": 1.1605366376118149e-12,
+      "nrlmsise_mape": 16.397300373909964,
+      "nrlmsise_rmse": 4.837192648274315e-13,
+      "nrlmsise00_mape": 19.55265534314136,
+      "nrlmsise00_rmse": 5.459952738953939e-13
+    },
+    {
+      "lead_step": 190,
+      "count": 578,
+      "nn_mape": 38.97447445433453,
+      "nn_rmse": 1.157429986387037e-12,
+      "nrlmsise_mape": 16.3588715111866,
+      "nrlmsise_rmse": 4.829193751676659e-13,
+      "nrlmsise00_mape": 19.512477316947145,
+      "nrlmsise00_rmse": 5.450988350021873e-13
+    },
+    {
+      "lead_step": 191,
+      "count": 578,
+      "nn_mape": 34.500573543701336,
+      "nn_rmse": 1.051823541331007e-12,
+      "nrlmsise_mape": 16.327056830269697,
+      "nrlmsise_rmse": 4.82250033088865e-13,
+      "nrlmsise00_mape": 19.478014174874247,
+      "nrlmsise00_rmse": 5.44326262947758e-13
+    },
+    {
+      "lead_step": 192,
+      "count": 578,
+      "nn_mape": 33.47776148287864,
+      "nn_rmse": 1.0252734409183107e-12,
+      "nrlmsise_mape": 16.29266285400387,
+      "nrlmsise_rmse": 4.818667259035091e-13,
+      "nrlmsise00_mape": 19.440655826605678,
+      "nrlmsise00_rmse": 5.438849817113143e-13
+    },
+    {
+      "lead_step": 193,
+      "count": 578,
+      "nn_mape": 39.46540230314138,
+      "nn_rmse": 1.1730327589792886e-12,
+      "nrlmsise_mape": 16.24205353439743,
+      "nrlmsise_rmse": 4.813681661307966e-13,
+      "nrlmsise00_mape": 19.386277682820978,
+      "nrlmsise00_rmse": 5.433141119669099e-13
+    },
+    {
+      "lead_step": 194,
+      "count": 578,
+      "nn_mape": 43.767770239208694,
+      "nn_rmse": 1.2808103424717964e-12,
+      "nrlmsise_mape": 16.195464839494996,
+      "nrlmsise_rmse": 4.808614650409612e-13,
+      "nrlmsise00_mape": 19.330552970675196,
+      "nrlmsise00_rmse": 5.426172720779947e-13
+    },
+    {
+      "lead_step": 195,
+      "count": 578,
+      "nn_mape": 42.177886463147274,
+      "nn_rmse": 1.231139509350951e-12,
+      "nrlmsise_mape": 16.190330948976943,
+      "nrlmsise_rmse": 4.80667784658013e-13,
+      "nrlmsise00_mape": 19.316075412700513,
+      "nrlmsise00_rmse": 5.421779715690646e-13
+    },
+    {
+      "lead_step": 196,
+      "count": 578,
+      "nn_mape": 42.3737337209368,
+      "nn_rmse": 1.2087709101973885e-12,
+      "nrlmsise_mape": 16.236316236158178,
+      "nrlmsise_rmse": 4.809270504418114e-13,
+      "nrlmsise00_mape": 19.36166976179209,
+      "nrlmsise00_rmse": 5.423525549313871e-13
+    },
+    {
+      "lead_step": 197,
+      "count": 578,
+      "nn_mape": 41.262754538545714,
+      "nn_rmse": 1.1675064538520219e-12,
+      "nrlmsise_mape": 16.264955598977583,
+      "nrlmsise_rmse": 4.810982532758384e-13,
+      "nrlmsise00_mape": 19.392469367754266,
+      "nrlmsise00_rmse": 5.42398355826552e-13
+    },
+    {
+      "lead_step": 198,
+      "count": 578,
+      "nn_mape": 36.805898399838725,
+      "nn_rmse": 1.0425421514387744e-12,
+      "nrlmsise_mape": 16.236869477054366,
+      "nrlmsise_rmse": 4.802480676033063e-13,
+      "nrlmsise00_mape": 19.364574488675718,
+      "nrlmsise00_rmse": 5.411115237264332e-13
+    },
+    {
+      "lead_step": 199,
+      "count": 578,
+      "nn_mape": 31.636030797364924,
+      "nn_rmse": 8.932076659281051e-13,
+      "nrlmsise_mape": 16.18928386596028,
+      "nrlmsise_rmse": 4.787936672196721e-13,
+      "nrlmsise00_mape": 19.317482762778397,
+      "nrlmsise00_rmse": 5.392934026710799e-13
+    },
+    {
+      "lead_step": 200,
+      "count": 578,
+      "nn_mape": 29.597911756169708,
+      "nn_rmse": 8.427765218070304e-13,
+      "nrlmsise_mape": 16.151125167022535,
+      "nrlmsise_rmse": 4.777995641538481e-13,
+      "nrlmsise00_mape": 19.27905087405572,
+      "nrlmsise00_rmse": 5.380498903150559e-13
+    },
+    {
+      "lead_step": 201,
+      "count": 578,
+      "nn_mape": 30.423130994232007,
+      "nn_rmse": 8.607705361286987e-13,
+      "nrlmsise_mape": 16.127478778798856,
+      "nrlmsise_rmse": 4.774452952424314e-13,
+      "nrlmsise00_mape": 19.25270803584298,
+      "nrlmsise00_rmse": 5.375194616445476e-13
+    },
+    {
+      "lead_step": 202,
+      "count": 578,
+      "nn_mape": 30.849366382411343,
+      "nn_rmse": 8.783193879205734e-13,
+      "nrlmsise_mape": 16.09786833754762,
+      "nrlmsise_rmse": 4.771853548339486e-13,
+      "nrlmsise00_mape": 19.221164968150532,
+      "nrlmsise00_rmse": 5.37151826461838e-13
+    },
+    {
+      "lead_step": 203,
+      "count": 578,
+      "nn_mape": 33.52463499432326,
+      "nn_rmse": 9.619279822380125e-13,
+      "nrlmsise_mape": 16.03945542637229,
+      "nrlmsise_rmse": 4.767754953773232e-13,
+      "nrlmsise00_mape": 19.152646297682764,
+      "nrlmsise00_rmse": 5.366397784671722e-13
+    },
+    {
+      "lead_step": 204,
+      "count": 578,
+      "nn_mape": 36.88447400586634,
+      "nn_rmse": 1.0542742800756816e-12,
+      "nrlmsise_mape": 15.970312351792227,
+      "nrlmsise_rmse": 4.76416254081818e-13,
+      "nrlmsise00_mape": 19.07630218313818,
+      "nrlmsise00_rmse": 5.361809286391839e-13
+    },
+    {
+      "lead_step": 205,
+      "count": 578,
+      "nn_mape": 36.47708525625471,
+      "nn_rmse": 1.041029800037624e-12,
+      "nrlmsise_mape": 15.939821702337515,
+      "nrlmsise_rmse": 4.762656168211349e-13,
+      "nrlmsise00_mape": 19.036504724468468,
+      "nrlmsise00_rmse": 5.359465885532703e-13
+    },
+    {
+      "lead_step": 206,
+      "count": 578,
+      "nn_mape": 33.91212547662628,
+      "nn_rmse": 9.780950347770553e-13,
+      "nrlmsise_mape": 15.910684384339893,
+      "nrlmsise_rmse": 4.760768884691539e-13,
+      "nrlmsise00_mape": 18.999966354187112,
+      "nrlmsise00_rmse": 5.356881601879783e-13
+    },
+    {
+      "lead_step": 207,
+      "count": 578,
+      "nn_mape": 34.22417904093021,
+      "nn_rmse": 9.96853380419336e-13,
+      "nrlmsise_mape": 15.878639362965096,
+      "nrlmsise_rmse": 4.758685271655474e-13,
+      "nrlmsise00_mape": 18.96283485387723,
+      "nrlmsise00_rmse": 5.354171683006452e-13
+    },
+    {
+      "lead_step": 208,
+      "count": 578,
+      "nn_mape": 35.835453776268125,
+      "nn_rmse": 1.0490497089163693e-12,
+      "nrlmsise_mape": 15.823774217666436,
+      "nrlmsise_rmse": 4.753641317255989e-13,
+      "nrlmsise00_mape": 18.903974995098142,
+      "nrlmsise00_rmse": 5.348201918472013e-13
+    },
+    {
+      "lead_step": 209,
+      "count": 578,
+      "nn_mape": 34.1322966270021,
+      "nn_rmse": 1.0225069022332625e-12,
+      "nrlmsise_mape": 15.753026104563306,
+      "nrlmsise_rmse": 4.743444449735832e-13,
+      "nrlmsise00_mape": 18.82989777068145,
+      "nrlmsise00_rmse": 5.336788514908385e-13
+    },
+    {
+      "lead_step": 210,
+      "count": 578,
+      "nn_mape": 33.41215809194286,
+      "nn_rmse": 1.0273547874724377e-12,
+      "nrlmsise_mape": 15.71373328163054,
+      "nrlmsise_rmse": 4.737508523242388e-13,
+      "nrlmsise00_mape": 18.78761908528893,
+      "nrlmsise00_rmse": 5.329943774265882e-13
+    },
+    {
+      "lead_step": 211,
+      "count": 578,
+      "nn_mape": 34.38481133256829,
+      "nn_rmse": 1.0573765605392305e-12,
+      "nrlmsise_mape": 15.711654033488799,
+      "nrlmsise_rmse": 4.736832711291987e-13,
+      "nrlmsise00_mape": 18.78481767255911,
+      "nrlmsise00_rmse": 5.329031205916946e-13
+    },
+    {
+      "lead_step": 212,
+      "count": 578,
+      "nn_mape": 37.02058702878205,
+      "nn_rmse": 1.1114914052339774e-12,
+      "nrlmsise_mape": 15.69202084256696,
+      "nrlmsise_rmse": 4.734159666559369e-13,
+      "nrlmsise00_mape": 18.76233831639723,
+      "nrlmsise00_rmse": 5.325624175560087e-13
+    },
+    {
+      "lead_step": 213,
+      "count": 578,
+      "nn_mape": 37.53797787635386,
+      "nn_rmse": 1.121683421656324e-12,
+      "nrlmsise_mape": 15.705996917767825,
+      "nrlmsise_rmse": 4.734292294900341e-13,
+      "nrlmsise00_mape": 18.76855451681311,
+      "nrlmsise00_rmse": 5.324478320517611e-13
+    },
+    {
+      "lead_step": 214,
+      "count": 578,
+      "nn_mape": 38.669986438867895,
+      "nn_rmse": 1.1396404869184933e-12,
+      "nrlmsise_mape": 15.732941414767648,
+      "nrlmsise_rmse": 4.735258895218072e-13,
+      "nrlmsise00_mape": 18.801583827955305,
+      "nrlmsise00_rmse": 5.325843962833497e-13
+    },
+    {
+      "lead_step": 215,
+      "count": 578,
+      "nn_mape": 36.81390080190548,
+      "nn_rmse": 1.0792581719277003e-12,
+      "nrlmsise_mape": 15.750373921060689,
+      "nrlmsise_rmse": 4.735663832505453e-13,
+      "nrlmsise00_mape": 18.841274669066763,
+      "nrlmsise00_rmse": 5.328126263132721e-13
+    },
+    {
+      "lead_step": 216,
+      "count": 578,
+      "nn_mape": 30.156976970038713,
+      "nn_rmse": 8.914004758168262e-13,
+      "nrlmsise_mape": 15.76375656266104,
+      "nrlmsise_rmse": 4.735968199848961e-13,
+      "nrlmsise00_mape": 18.856223348766783,
+      "nrlmsise00_rmse": 5.326918150034589e-13
+    },
+    {
+      "lead_step": 217,
+      "count": 578,
+      "nn_mape": 25.471821804382934,
+      "nn_rmse": 7.41397566496683e-13,
+      "nrlmsise_mape": 15.74125425332961,
+      "nrlmsise_rmse": 4.724597067167901e-13,
+      "nrlmsise00_mape": 18.835840112438074,
+      "nrlmsise00_rmse": 5.312450381236564e-13
+    },
+    {
+      "lead_step": 218,
+      "count": 578,
+      "nn_mape": 22.738015987741544,
+      "nn_rmse": 6.640675287282501e-13,
+      "nrlmsise_mape": 15.708437339146371,
+      "nrlmsise_rmse": 4.709289723591347e-13,
+      "nrlmsise00_mape": 18.805006638113753,
+      "nrlmsise00_rmse": 5.295780104551713e-13
+    },
+    {
+      "lead_step": 219,
+      "count": 578,
+      "nn_mape": 24.04201074022688,
+      "nn_rmse": 7.031840868556523e-13,
+      "nrlmsise_mape": 15.682621515601872,
+      "nrlmsise_rmse": 4.701313094796754e-13,
+      "nrlmsise00_mape": 18.777995399772628,
+      "nrlmsise00_rmse": 5.286286554119817e-13
+    },
+    {
+      "lead_step": 220,
+      "count": 578,
+      "nn_mape": 29.160686949371375,
+      "nn_rmse": 8.374067683964039e-13,
+      "nrlmsise_mape": 15.661519527964677,
+      "nrlmsise_rmse": 4.697733456129715e-13,
+      "nrlmsise00_mape": 18.754317902078203,
+      "nrlmsise00_rmse": 5.281386792094987e-13
+    },
+    {
+      "lead_step": 221,
+      "count": 578,
+      "nn_mape": 36.66408991306969,
+      "nn_rmse": 1.0432311680277318e-12,
+      "nrlmsise_mape": 15.645202251915565,
+      "nrlmsise_rmse": 4.69674455778835e-13,
+      "nrlmsise00_mape": 18.737857035610006,
+      "nrlmsise00_rmse": 5.280314526397415e-13
+    },
+    {
+      "lead_step": 222,
+      "count": 578,
+      "nn_mape": 41.054393047557234,
+      "nn_rmse": 1.178582046598841e-12,
+      "nrlmsise_mape": 15.625967398479315,
+      "nrlmsise_rmse": 4.695973397975862e-13,
+      "nrlmsise00_mape": 18.718308421886668,
+      "nrlmsise00_rmse": 5.279554425181773e-13
+    },
+    {
+      "lead_step": 223,
+      "count": 578,
+      "nn_mape": 37.350158385483454,
+      "nn_rmse": 1.088232851003074e-12,
+      "nrlmsise_mape": 15.601727110835343,
+      "nrlmsise_rmse": 4.695079934774242e-13,
+      "nrlmsise00_mape": 18.689232293988,
+      "nrlmsise00_rmse": 5.278212489995227e-13
+    },
+    {
+      "lead_step": 224,
+      "count": 578,
+      "nn_mape": 30.79379827393437,
+      "nn_rmse": 9.126901314004587e-13,
+      "nrlmsise_mape": 15.57998537567929,
+      "nrlmsise_rmse": 4.69421423691906e-13,
+      "nrlmsise00_mape": 18.660445742673517,
+      "nrlmsise00_rmse": 5.276769450670881e-13
+    },
+    {
+      "lead_step": 225,
+      "count": 578,
+      "nn_mape": 29.461308881040786,
+      "nn_rmse": 8.815530336292159e-13,
+      "nrlmsise_mape": 15.536133232680871,
+      "nrlmsise_rmse": 4.691997528656088e-13,
+      "nrlmsise00_mape": 18.609030693107005,
+      "nrlmsise00_rmse": 5.273860421821915e-13
+    },
+    {
+      "lead_step": 226,
+      "count": 578,
+      "nn_mape": 31.34167047734277,
+      "nn_rmse": 9.490904301920194e-13,
+      "nrlmsise_mape": 15.472554095879563,
+      "nrlmsise_rmse": 4.687800621835811e-13,
+      "nrlmsise00_mape": 18.538269208291645,
+      "nrlmsise00_rmse": 5.268794402588729e-13
+    },
+    {
+      "lead_step": 227,
+      "count": 578,
+      "nn_mape": 33.73899364093821,
+      "nn_rmse": 1.0248157896642895e-12,
+      "nrlmsise_mape": 15.443597214831694,
+      "nrlmsise_rmse": 4.682364264436542e-13,
+      "nrlmsise00_mape": 18.507539550022376,
+      "nrlmsise00_rmse": 5.262384264561573e-13
+    },
+    {
+      "lead_step": 228,
+      "count": 578,
+      "nn_mape": 33.61772065755662,
+      "nn_rmse": 1.039546376996662e-12,
+      "nrlmsise_mape": 15.452808318193846,
+      "nrlmsise_rmse": 4.679331592052662e-13,
+      "nrlmsise00_mape": 18.51769081382686,
+      "nrlmsise00_rmse": 5.258492955387166e-13
+    },
+    {
+      "lead_step": 229,
+      "count": 578,
+      "nn_mape": 32.19097157984365,
+      "nn_rmse": 1.0120347711496138e-12,
+      "nrlmsise_mape": 15.466015098841138,
+      "nrlmsise_rmse": 4.679609910293581e-13,
+      "nrlmsise00_mape": 18.530535477114427,
+      "nrlmsise00_rmse": 5.258496387322909e-13
+    },
+    {
+      "lead_step": 230,
+      "count": 578,
+      "nn_mape": 33.64818226462364,
+      "nn_rmse": 1.0450703071909617e-12,
+      "nrlmsise_mape": 15.462011571120737,
+      "nrlmsise_rmse": 4.67915045614662e-13,
+      "nrlmsise00_mape": 18.525724797438613,
+      "nrlmsise00_rmse": 5.257816353885708e-13
+    },
+    {
+      "lead_step": 231,
+      "count": 578,
+      "nn_mape": 33.918899223413405,
+      "nn_rmse": 1.0446392204215685e-12,
+      "nrlmsise_mape": 15.46964870885116,
+      "nrlmsise_rmse": 4.679153775007055e-13,
+      "nrlmsise00_mape": 18.52965412452426,
+      "nrlmsise00_rmse": 5.257204617185322e-13
+    },
+    {
+      "lead_step": 232,
+      "count": 578,
+      "nn_mape": 30.003423972948056,
+      "nn_rmse": 9.376861962835175e-13,
+      "nrlmsise_mape": 15.523763338550738,
+      "nrlmsise_rmse": 4.681490729417118e-13,
+      "nrlmsise00_mape": 18.58655309730107,
+      "nrlmsise00_rmse": 5.259856090514637e-13
+    },
+    {
+      "lead_step": 233,
+      "count": 578,
+      "nn_mape": 28.719697380236358,
+      "nn_rmse": 8.836289752474509e-13,
+      "nrlmsise_mape": 15.5711588293034,
+      "nrlmsise_rmse": 4.68394902266212e-13,
+      "nrlmsise00_mape": 18.658552252925237,
+      "nrlmsise00_rmse": 5.264228050471809e-13
+    },
+    {
+      "lead_step": 234,
+      "count": 578,
+      "nn_mape": 28.357507720349624,
+      "nn_rmse": 8.555960775317384e-13,
+      "nrlmsise_mape": 15.589511028900082,
+      "nrlmsise_rmse": 4.684254706183659e-13,
+      "nrlmsise00_mape": 18.704128190868104,
+      "nrlmsise00_rmse": 5.267144409345271e-13
+    },
+    {
+      "lead_step": 235,
+      "count": 578,
+      "nn_mape": 25.67847535362045,
+      "nn_rmse": 7.617013988944996e-13,
+      "nrlmsise_mape": 15.58209696325451,
+      "nrlmsise_rmse": 4.682150612447148e-13,
+      "nrlmsise00_mape": 18.697975947073562,
+      "nrlmsise00_rmse": 5.262340103963262e-13
+    },
+    {
+      "lead_step": 236,
+      "count": 578,
+      "nn_mape": 23.878029340700163,
+      "nn_rmse": 6.911803684270362e-13,
+      "nrlmsise_mape": 15.554210329472474,
+      "nrlmsise_rmse": 4.67064216008213e-13,
+      "nrlmsise00_mape": 18.672326662600458,
+      "nrlmsise00_rmse": 5.247824271467428e-13
+    },
+    {
+      "lead_step": 237,
+      "count": 578,
+      "nn_mape": 24.91999956454762,
+      "nn_rmse": 7.224203738824446e-13,
+      "nrlmsise_mape": 15.530901725822352,
+      "nrlmsise_rmse": 4.659614415102821e-13,
+      "nrlmsise00_mape": 18.650422347584755,
+      "nrlmsise00_rmse": 5.236114406373722e-13
+    },
+    {
+      "lead_step": 238,
+      "count": 578,
+      "nn_mape": 29.4034947975165,
+      "nn_rmse": 8.467751848894985e-13,
+      "nrlmsise_mape": 15.517317182153754,
+      "nrlmsise_rmse": 4.6550097273926e-13,
+      "nrlmsise00_mape": 18.635379962498426,
+      "nrlmsise00_rmse": 5.230481985306554e-13
+    },
+    {
+      "lead_step": 239,
+      "count": 578,
+      "nn_mape": 35.176406185226675,
+      "nn_rmse": 9.952588817548889e-13,
+      "nrlmsise_mape": 15.520428989401491,
+      "nrlmsise_rmse": 4.656017915546125e-13,
+      "nrlmsise00_mape": 18.637824450403702,
+      "nrlmsise00_rmse": 5.231872312474149e-13
+    },
+    {
+      "lead_step": 240,
+      "count": 578,
+      "nn_mape": 39.503940314908704,
+      "nn_rmse": 1.1178915027724316e-12,
+      "nrlmsise_mape": 15.522668526047376,
+      "nrlmsise_rmse": 4.656456597870581e-13,
+      "nrlmsise00_mape": 18.657482534772946,
+      "nrlmsise00_rmse": 5.234115607387078e-13
+    },
+    {
+      "lead_step": 241,
+      "count": 578,
+      "nn_mape": 38.0595507794256,
+      "nn_rmse": 1.0939595502636092e-12,
+      "nrlmsise_mape": 15.50558252761698,
+      "nrlmsise_rmse": 4.655601397855208e-13,
+      "nrlmsise00_mape": 18.656053855137422,
+      "nrlmsise00_rmse": 5.234150611094673e-13
+    },
+    {
+      "lead_step": 242,
+      "count": 578,
+      "nn_mape": 31.344042988164684,
+      "nn_rmse": 9.100960111304955e-13,
+      "nrlmsise_mape": 15.502869397506625,
+      "nrlmsise_rmse": 4.655550417189434e-13,
+      "nrlmsise00_mape": 18.667944967161787,
+      "nrlmsise00_rmse": 5.234334410097892e-13
+    },
+    {
+      "lead_step": 243,
+      "count": 578,
+      "nn_mape": 28.454070094442223,
+      "nn_rmse": 8.386914045809002e-13,
+      "nrlmsise_mape": 15.493746316802392,
+      "nrlmsise_rmse": 4.655108626608524e-13,
+      "nrlmsise00_mape": 18.653499068765825,
+      "nrlmsise00_rmse": 5.233513395987533e-13
+    },
+    {
+      "lead_step": 244,
+      "count": 578,
+      "nn_mape": 28.98923299374169,
+      "nn_rmse": 8.693926602237461e-13,
+      "nrlmsise_mape": 15.464136883373383,
+      "nrlmsise_rmse": 4.653645420026109e-13,
+      "nrlmsise00_mape": 18.616966280196785,
+      "nrlmsise00_rmse": 5.231448612103512e-13
+    },
+    {
+      "lead_step": 245,
+      "count": 578,
+      "nn_mape": 31.5465348661715,
+      "nn_rmse": 9.586884746889691e-13,
+      "nrlmsise_mape": 15.445398397322139,
+      "nrlmsise_rmse": 4.650399348113699e-13,
+      "nrlmsise00_mape": 18.59371088075499,
+      "nrlmsise00_rmse": 5.227320184856373e-13
+    },
+    {
+      "lead_step": 246,
+      "count": 578,
+      "nn_mape": 31.81066575430455,
+      "nn_rmse": 9.718988837147487e-13,
+      "nrlmsise_mape": 15.433019538391369,
+      "nrlmsise_rmse": 4.644725697045997e-13,
+      "nrlmsise00_mape": 18.580846294080626,
+      "nrlmsise00_rmse": 5.220664883324003e-13
+    },
+    {
+      "lead_step": 247,
+      "count": 578,
+      "nn_mape": 31.5376845659103,
+      "nn_rmse": 9.617615958883433e-13,
+      "nrlmsise_mape": 15.456297465817153,
+      "nrlmsise_rmse": 4.644751453699014e-13,
+      "nrlmsise00_mape": 18.605212418519116,
+      "nrlmsise00_rmse": 5.220219954491825e-13
+    },
+    {
+      "lead_step": 248,
+      "count": 578,
+      "nn_mape": 33.40890125792286,
+      "nn_rmse": 1.013457266712642e-12,
+      "nrlmsise_mape": 15.519469744452874,
+      "nrlmsise_rmse": 4.648346408102402e-13,
+      "nrlmsise00_mape": 18.682786328135943,
+      "nrlmsise00_rmse": 5.224657912311e-13
+    },
+    {
+      "lead_step": 249,
+      "count": 578,
+      "nn_mape": 35.25155158647607,
+      "nn_rmse": 1.0730612118734949e-12,
+      "nrlmsise_mape": 15.564897777104903,
+      "nrlmsise_rmse": 4.650584387972067e-13,
+      "nrlmsise00_mape": 18.745299836105627,
+      "nrlmsise00_rmse": 5.227791828719158e-13
+    },
+    {
+      "lead_step": 250,
+      "count": 578,
+      "nn_mape": 34.819180332164784,
+      "nn_rmse": 1.0773732694974905e-12,
+      "nrlmsise_mape": 15.583555439686695,
+      "nrlmsise_rmse": 4.651115604844852e-13,
+      "nrlmsise00_mape": 18.75899530173938,
+      "nrlmsise00_rmse": 5.227884660085148e-13
+    },
+    {
+      "lead_step": 251,
+      "count": 578,
+      "nn_mape": 30.24007923708933,
+      "nn_rmse": 9.529901370059375e-13,
+      "nrlmsise_mape": 15.59811541767874,
+      "nrlmsise_rmse": 4.651223936135915e-13,
+      "nrlmsise00_mape": 18.763732376151328,
+      "nrlmsise00_rmse": 5.225921806923009e-13
+    },
+    {
+      "lead_step": 252,
+      "count": 578,
+      "nn_mape": 28.120080964355807,
+      "nn_rmse": 8.672561745137531e-13,
+      "nrlmsise_mape": 15.63553814285229,
+      "nrlmsise_rmse": 4.653006670109546e-13,
+      "nrlmsise00_mape": 18.798486753146033,
+      "nrlmsise00_rmse": 5.225884343614371e-13
+    },
+    {
+      "lead_step": 253,
+      "count": 578,
+      "nn_mape": 24.578352420866242,
+      "nn_rmse": 7.451384339626433e-13,
+      "nrlmsise_mape": 15.662324800697093,
+      "nrlmsise_rmse": 4.654601930726083e-13,
+      "nrlmsise00_mape": 18.827166764270675,
+      "nrlmsise00_rmse": 5.226473278003029e-13
+    },
+    {
+      "lead_step": 254,
+      "count": 578,
+      "nn_mape": 20.454049982489902,
+      "nn_rmse": 6.04906450148723e-13,
+      "nrlmsise_mape": 15.661362653472615,
+      "nrlmsise_rmse": 4.653041366660171e-13,
+      "nrlmsise00_mape": 18.828601622032114,
+      "nrlmsise00_rmse": 5.222960342891021e-13
+    },
+    {
+      "lead_step": 255,
+      "count": 578,
+      "nn_mape": 20.989472945883556,
+      "nn_rmse": 6.081744126970329e-13,
+      "nrlmsise_mape": 15.664451264964438,
+      "nrlmsise_rmse": 4.651713865645891e-13,
+      "nrlmsise00_mape": 18.83565881487457,
+      "nrlmsise00_rmse": 5.221578475734294e-13
+    },
+    {
+      "lead_step": 256,
+      "count": 578,
+      "nn_mape": 24.1193635796979,
+      "nn_rmse": 6.981429628054302e-13,
+      "nrlmsise_mape": 15.677227982356667,
+      "nrlmsise_rmse": 4.654580726714471e-13,
+      "nrlmsise00_mape": 18.850533671842832,
+      "nrlmsise00_rmse": 5.225251220671413e-13
+    },
+    {
+      "lead_step": 257,
+      "count": 578,
+      "nn_mape": 27.90174600525556,
+      "nn_rmse": 7.885635956990204e-13,
+      "nrlmsise_mape": 15.692129584235756,
+      "nrlmsise_rmse": 4.657684889422837e-13,
+      "nrlmsise00_mape": 18.864605563920694,
+      "nrlmsise00_rmse": 5.228914260396894e-13
+    },
+    {
+      "lead_step": 258,
+      "count": 578,
+      "nn_mape": 30.35907238302157,
+      "nn_rmse": 8.528194212658532e-13,
+      "nrlmsise_mape": 15.699138759211678,
+      "nrlmsise_rmse": 4.658619359268205e-13,
+      "nrlmsise00_mape": 18.871714511462567,
+      "nrlmsise00_rmse": 5.230582421383817e-13
+    },
+    {
+      "lead_step": 259,
+      "count": 578,
+      "nn_mape": 31.37924665332915,
+      "nn_rmse": 8.887010517151349e-13,
+      "nrlmsise_mape": 15.689408076897642,
+      "nrlmsise_rmse": 4.658384581442129e-13,
+      "nrlmsise00_mape": 18.862644151462828,
+      "nrlmsise00_rmse": 5.2307609884972e-13
+    },
+    {
+      "lead_step": 260,
+      "count": 578,
+      "nn_mape": 30.50007985485085,
+      "nn_rmse": 8.7321639852802e-13,
+      "nrlmsise_mape": 15.673314919518472,
+      "nrlmsise_rmse": 4.658021584228501e-13,
+      "nrlmsise00_mape": 18.84553695595754,
+      "nrlmsise00_rmse": 5.230578460705097e-13
+    },
+    {
+      "lead_step": 261,
+      "count": 578,
+      "nn_mape": 30.155589244246052,
+      "nn_rmse": 8.73856568948778e-13,
+      "nrlmsise_mape": 15.636072145625665,
+      "nrlmsise_rmse": 4.656211877771882e-13,
+      "nrlmsise00_mape": 18.804243332557384,
+      "nrlmsise00_rmse": 5.228434432015689e-13
+    },
+    {
+      "lead_step": 262,
+      "count": 578,
+      "nn_mape": 29.757037549443744,
+      "nn_rmse": 8.764490172257373e-13,
+      "nrlmsise_mape": 15.589649028352717,
+      "nrlmsise_rmse": 4.653815313597887e-13,
+      "nrlmsise00_mape": 18.751483865394306,
+      "nrlmsise00_rmse": 5.225524888420999e-13
+    },
+    {
+      "lead_step": 263,
+      "count": 578,
+      "nn_mape": 29.380849724658255,
+      "nn_rmse": 8.870694943474224e-13,
+      "nrlmsise_mape": 15.599205159501478,
+      "nrlmsise_rmse": 4.653510015738658e-13,
+      "nrlmsise00_mape": 18.75563650707154,
+      "nrlmsise00_rmse": 5.224727729465332e-13
+    },
+    {
+      "lead_step": 264,
+      "count": 578,
+      "nn_mape": 27.674716173716522,
+      "nn_rmse": 8.497727910202559e-13,
+      "nrlmsise_mape": 15.627366681685425,
+      "nrlmsise_rmse": 4.65391198542383e-13,
+      "nrlmsise00_mape": 18.78240531437971,
+      "nrlmsise00_rmse": 5.224787870085179e-13
+    },
+    {
+      "lead_step": 265,
+      "count": 578,
+      "nn_mape": 25.757751876709783,
+      "nn_rmse": 7.953643590761779e-13,
+      "nrlmsise_mape": 15.643021493929318,
+      "nrlmsise_rmse": 4.654072409047825e-13,
+      "nrlmsise00_mape": 18.799462433546083,
+      "nrlmsise00_rmse": 5.224699942753126e-13
+    },
+    {
+      "lead_step": 266,
+      "count": 578,
+      "nn_mape": 26.506344739524785,
+      "nn_rmse": 8.220582700022612e-13,
+      "nrlmsise_mape": 15.670438817524431,
+      "nrlmsise_rmse": 4.654944711048184e-13,
+      "nrlmsise00_mape": 18.827784400965918,
+      "nrlmsise00_rmse": 5.225734381481671e-13
+    },
+    {
+      "lead_step": 267,
+      "count": 578,
+      "nn_mape": 29.292590378077847,
+      "nn_rmse": 9.021723783219673e-13,
+      "nrlmsise_mape": 15.705800461466648,
+      "nrlmsise_rmse": 4.656396648563171e-13,
+      "nrlmsise00_mape": 18.86374268866417,
+      "nrlmsise00_rmse": 5.227653656198947e-13
+    },
+    {
+      "lead_step": 268,
+      "count": 578,
+      "nn_mape": 30.302076197268647,
+      "nn_rmse": 9.308586830420205e-13,
+      "nrlmsise_mape": 15.725582290049104,
+      "nrlmsise_rmse": 4.65698333974671e-13,
+      "nrlmsise00_mape": 18.89257081028796,
+      "nrlmsise00_rmse": 5.22873184585443e-13
+    },
+    {
+      "lead_step": 269,
+      "count": 578,
+      "nn_mape": 27.09674801173485,
+      "nn_rmse": 8.524211396808692e-13,
+      "nrlmsise_mape": 15.722935413004372,
+      "nrlmsise_rmse": 4.650797439652477e-13,
+      "nrlmsise00_mape": 18.91440451811889,
+      "nrlmsise00_rmse": 5.227498979841118e-13
+    },
+    {
+      "lead_step": 270,
+      "count": 578,
+      "nn_mape": 22.892739998377852,
+      "nn_rmse": 7.309749576779265e-13,
+      "nrlmsise_mape": 15.720707712721024,
+      "nrlmsise_rmse": 4.633016640139229e-13,
+      "nrlmsise00_mape": 18.93760395549801,
+      "nrlmsise00_rmse": 5.220165145205598e-13
+    },
+    {
+      "lead_step": 271,
+      "count": 578,
+      "nn_mape": 22.359847242244165,
+      "nn_rmse": 6.932480366936238e-13,
+      "nrlmsise_mape": 15.689322326984382,
+      "nrlmsise_rmse": 4.607821815517281e-13,
+      "nrlmsise00_mape": 18.931761899947514,
+      "nrlmsise00_rmse": 5.207887593188222e-13
+    },
+    {
+      "lead_step": 272,
+      "count": 578,
+      "nn_mape": 21.782344002677963,
+      "nn_rmse": 6.545924933969002e-13,
+      "nrlmsise_mape": 15.675493098372003,
+      "nrlmsise_rmse": 4.605991545457749e-13,
+      "nrlmsise00_mape": 18.943196560764502,
+      "nrlmsise00_rmse": 5.208287764765161e-13
+    },
+    {
+      "lead_step": 273,
+      "count": 578,
+      "nn_mape": 22.233628481360984,
+      "nn_rmse": 6.408166886431166e-13,
+      "nrlmsise_mape": 15.659725588314169,
+      "nrlmsise_rmse": 4.600066569175846e-13,
+      "nrlmsise00_mape": 18.92981675027668,
+      "nrlmsise00_rmse": 5.199676226787156e-13
+    },
+    {
+      "lead_step": 274,
+      "count": 578,
+      "nn_mape": 22.249889196451168,
+      "nn_rmse": 6.406244903210672e-13,
+      "nrlmsise_mape": 15.657023697595541,
+      "nrlmsise_rmse": 4.595242586237698e-13,
+      "nrlmsise00_mape": 18.930514829872187,
+      "nrlmsise00_rmse": 5.194637429060079e-13
+    },
+    {
+      "lead_step": 275,
+      "count": 578,
+      "nn_mape": 23.982892583074847,
+      "nn_rmse": 6.988780979383948e-13,
+      "nrlmsise_mape": 15.674632163264665,
+      "nrlmsise_rmse": 4.600002813982562e-13,
+      "nrlmsise00_mape": 18.94860385428428,
+      "nrlmsise00_rmse": 5.199929816871719e-13
+    },
+    {
+      "lead_step": 276,
+      "count": 578,
+      "nn_mape": 26.53814398224404,
+      "nn_rmse": 7.693201970111422e-13,
+      "nrlmsise_mape": 15.692710792523187,
+      "nrlmsise_rmse": 4.603274129985872e-13,
+      "nrlmsise00_mape": 18.98520468430945,
+      "nrlmsise00_rmse": 5.206163764601306e-13
+    },
+    {
+      "lead_step": 277,
+      "count": 578,
+      "nn_mape": 27.336181924883345,
+      "nn_rmse": 7.946684042969118e-13,
+      "nrlmsise_mape": 15.655518207789187,
+      "nrlmsise_rmse": 4.587854368530336e-13,
+      "nrlmsise00_mape": 18.964313276687545,
+      "nrlmsise00_rmse": 5.197398433127427e-13
+    },
+    {
+      "lead_step": 278,
+      "count": 578,
+      "nn_mape": 26.133955317676556,
+      "nn_rmse": 7.698112086363418e-13,
+      "nrlmsise_mape": 15.606776806815068,
+      "nrlmsise_rmse": 4.574392944950286e-13,
+      "nrlmsise00_mape": 18.93093582472244,
+      "nrlmsise00_rmse": 5.188654639484564e-13
+    },
+    {
+      "lead_step": 279,
+      "count": 578,
+      "nn_mape": 24.360902255248053,
+      "nn_rmse": 7.304651944088038e-13,
+      "nrlmsise_mape": 15.562452002041072,
+      "nrlmsise_rmse": 4.569102021506583e-13,
+      "nrlmsise00_mape": 18.901024761825216,
+      "nrlmsise00_rmse": 5.185341963996512e-13
+    },
+    {
+      "lead_step": 280,
+      "count": 578,
+      "nn_mape": 23.85608817201571,
+      "nn_rmse": 7.156487984874516e-13,
+      "nrlmsise_mape": 15.5422090788675,
+      "nrlmsise_rmse": 4.56754876632842e-13,
+      "nrlmsise00_mape": 18.894308977525494,
+      "nrlmsise00_rmse": 5.184674864367951e-13
+    },
+    {
+      "lead_step": 281,
+      "count": 578,
+      "nn_mape": 26.839292397183268,
+      "nn_rmse": 8.000909826653169e-13,
+      "nrlmsise_mape": 15.56146526812271,
+      "nrlmsise_rmse": 4.56779734046613e-13,
+      "nrlmsise00_mape": 18.92662432800072,
+      "nrlmsise00_rmse": 5.185134271292262e-13
+    },
+    {
+      "lead_step": 282,
+      "count": 578,
+      "nn_mape": 29.36585305063208,
+      "nn_rmse": 8.836739706654143e-13,
+      "nrlmsise_mape": 15.605166799501916,
+      "nrlmsise_rmse": 4.568573949848327e-13,
+      "nrlmsise00_mape": 18.966703963588007,
+      "nrlmsise00_rmse": 5.185735273850425e-13
+    },
+    {
+      "lead_step": 283,
+      "count": 578,
+      "nn_mape": 28.506560619986466,
+      "nn_rmse": 8.6838442349436e-13,
+      "nrlmsise_mape": 15.648729698201311,
+      "nrlmsise_rmse": 4.56949167954117e-13,
+      "nrlmsise00_mape": 19.011150292103054,
+      "nrlmsise00_rmse": 5.186361594389336e-13
+    },
+    {
+      "lead_step": 284,
+      "count": 578,
+      "nn_mape": 26.587111602719382,
+      "nn_rmse": 8.139170871997648e-13,
+      "nrlmsise_mape": 15.67017408618699,
+      "nrlmsise_rmse": 4.569917299382698e-13,
+      "nrlmsise00_mape": 19.034193393289126,
+      "nrlmsise00_rmse": 5.186612707301844e-13
+    },
+    {
+      "lead_step": 285,
+      "count": 578,
+      "nn_mape": 25.94300838844528,
+      "nn_rmse": 8.002764566063761e-13,
+      "nrlmsise_mape": 15.676668902846776,
+      "nrlmsise_rmse": 4.569949313715515e-13,
+      "nrlmsise00_mape": 19.058564849246608,
+      "nrlmsise00_rmse": 5.187410123044439e-13
+    },
+    {
+      "lead_step": 286,
+      "count": 578,
+      "nn_mape": 26.62297126112938,
+      "nn_rmse": 8.190319987662172e-13,
+      "nrlmsise_mape": 15.680844977083275,
+      "nrlmsise_rmse": 4.569582849429697e-13,
+      "nrlmsise00_mape": 19.081876002126812,
+      "nrlmsise00_rmse": 5.188431619471531e-13
+    },
+    {
+      "lead_step": 287,
+      "count": 578,
+      "nn_mape": 24.933844531828093,
+      "nn_rmse": 7.714724668269452e-13,
+      "nrlmsise_mape": 15.652504892465366,
+      "nrlmsise_rmse": 4.56681211509604e-13,
+      "nrlmsise00_mape": 19.0750319727782,
+      "nrlmsise00_rmse": 5.187705196387804e-13
+    },
+    {
+      "lead_step": 288,
+      "count": 578,
+      "nn_mape": 21.354516744552132,
+      "nn_rmse": 6.794530004832045e-13,
+      "nrlmsise_mape": 15.617441355395002,
+      "nrlmsise_rmse": 4.558260821908283e-13,
+      "nrlmsise00_mape": 19.064749504259996,
+      "nrlmsise00_rmse": 5.184642091653452e-13
+    }
+  ],
+  "phase_metrics": {
+    "quiet": {
+      "count": 83520,
+      "nn_mape": 28.85574097457817,
+      "nn_rmse": 6.839735344132477e-13,
+      "nrlmsise_mape": 18.2019143423773,
+      "nrlmsise_rmse": 4.274847661413347e-13,
+      "nrlmsise00_mape": 21.19386658672657,
+      "nrlmsise00_rmse": 4.768229136164559e-13
+    },
+    "minor": {
+      "count": 0,
+      "nn_mape": 0.0,
+      "nn_rmse": 0.0,
+      "nrlmsise_mape": 0.0,
+      "nrlmsise_rmse": 0.0,
+      "nrlmsise00_mape": 0.0,
+      "nrlmsise00_rmse": 0.0
+    },
+    "major": {
+      "count": 82944,
+      "nn_mape": 41.14463558247113,
+      "nn_rmse": 1.254063347196008e-12,
+      "nrlmsise_mape": 17.311203000631288,
+      "nrlmsise_rmse": 5.574080096468276e-13,
+      "nrlmsise00_mape": 21.702144655414372,
+      "nrlmsise00_rmse": 6.465046683933104e-13
+    },
+    "all": {
+      "count": 166464,
+      "nn_mape": 34.978927215189195,
+      "nn_rmse": 1.0091262672701909e-12,
+      "nrlmsise_mape": 17.7580996945869,
+      "nrlmsise_rmse": 4.964897505135158e-13,
+      "nrlmsise00_mape": 21.44712624724921,
+      "nrlmsise00_rmse": 5.677450278406851e-13
+    }
+  },
+  "overall": {
+    "n_samples": 166464,
+    "nn_mape": 34.978927215189195,
+    "nn_rmse": 1.0091262672701909e-12,
+    "nn_r": 0.8852561906858877,
+    "nn_r2": -0.13358148519117252,
+    "nrlmsise_mape": 17.7580996945869,
+    "nrlmsise_rmse": 4.964897505135158e-13,
+    "nrlmsise_r": 0.8748041101448542,
+    "nrlmsise_r2": 0.7256011436481389,
+    "nn_rmse_reduce_pct_nrlmsise": -103.25218521156958,
+    "nrlmsise00_mape": 21.44712624724921,
+    "nrlmsise00_rmse": 5.677450278406851e-13,
+    "nrlmsise00_r": 0.877177886235417,
+    "nrlmsise00_r2": 0.6411868085339865,
+    "nn_rmse_reduce_pct_nrlmsise00": -77.7428630433311
+  },
+  "n_samples": 166464
+}

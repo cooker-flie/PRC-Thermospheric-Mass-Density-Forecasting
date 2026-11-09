@@ -1,0 +1,13 @@
+{
+  "task": "infer",
+  "args": {
+    "model_path": "models/finetune/patchtst_swarm_c_fold0_ds1_sl288_pl288_2014-01-01_to_2025-12-31_best.pth",
+    "trajectory_file": "data/merged_datasets/satellites_data_swarm_a_10xresample_omni.csv",
+    "satellite": "swarm_a",
+    "start_time": "2024-05-09 00:00:00",
+    "end_time": "2024-05-10 00:00:00",
+    "device": "cpu",
+    "plot": "none",
+    "output": "outputs/demo_inference"
+  }
+}

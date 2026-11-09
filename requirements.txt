@@ -1,0 +1,10 @@
+# Python 3.10/3.11；先按 README 安装匹配硬件的 PyTorch。
+numpy>=1.26,<3
+pandas>=2.2,<3
+matplotlib>=3.8,<4
+tqdm>=4.66,<5
+pyfiglet>=1,<2
+termcolor>=2,<4
+wandb>=0.17,<1
+requests>=2.31,<3
+pymsis>=0.11,<1

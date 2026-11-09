@@ -1,0 +1,9 @@
+name: prc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - -r requirements.txt
+# 激活后按 README 单独安装 CPU 或 CUDA 版 PyTorch。

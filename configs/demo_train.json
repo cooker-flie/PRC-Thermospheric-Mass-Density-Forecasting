@@ -1,0 +1,22 @@
+{
+  "task": "train",
+  "args": {
+    "data_path": "data/merged_datasets/satellites_data_swarm_c_10xresample_omni.csv",
+    "satellite": "swarm_c",
+    "start_date": "2024-05-01",
+    "end_date": "2024-05-31",
+    "model_type": "patchtst",
+    "train_type": "log_exp_residual",
+    "seq_len": 288,
+    "pred_len": 288,
+    "downsample": 1,
+    "d_model": 64,
+    "n_heads": 4,
+    "e_layers": 2,
+    "epochs": 1,
+    "batch_size": 8,
+    "test_gap_days": 0,
+    "device": "cpu",
+    "save_dir": "outputs/demo_training"
+  }
+}

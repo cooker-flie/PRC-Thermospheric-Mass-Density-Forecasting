@@ -1,0 +1,16 @@
+{
+  "python": "3.10.19",
+  "packages": {
+    "torch": "2.12.0.dev20260331+cu128",
+    "numpy": "2.0.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.6",
+    "tqdm": "4.67.1",
+    "pyfiglet": "1.0.4",
+    "termcolor": "3.2.0",
+    "wandb": "0.24.0",
+    "requests": "2.32.5",
+    "pymsis": "0.12.0"
+  },
+  "scope": "既有研究环境；不是干净安装验证或稳定版本锁文件"
+}
